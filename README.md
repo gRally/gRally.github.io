@@ -1,54 +1,65 @@
-![favicon](https://raw.github.com/nadjetey/wangana/master/favicon.png) Wangana - Jekyll Theme
-==============
+Squared-Jekyll-theme
+====================
 
-Wangana is responsive [Jekyll](http://jekyllrb.com/) theme, perfect for powering your GitHub hosted blog. See this theme live at [nadjetey.github.io](http://nadjetey.github.io)
+Setting up
+====================
+To start you own blog, simply git clone the repository on github. You could also press the "fork" button on github.
+<pre><code>git clone https://github.com/anandubajith/squared.git
+</code></pre>
+Then you will need to edit the _config.yml file at the root of repository.
 
-## Contributing
-1. Fork it ( https://github.com/nadjetey/wangana/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+To add your own posts, add a file to the _posts directory which has the name year-month-day-title.md. 
+<br>Note - the file does not have to be markdown.
 
-## Issues
-[Open](https://github.com/nadjetey/wangana/issues/new) issues if you run into trouble or have suggestions. Pull Requests always welcome.
+To publish the post, just <code>git push</code> it to your own github repo and your set!
 
-## Installation & Usage
-[Download](https://github.com/nadjetey/wangana/archive/master.zip) package and run the following code:
-``` bat
-$ bundle install
-# Install all dependencies and setup coding environment
+Things to change on `_config.yml`
+====================
+There is a config file at the root called `_config.yml`. By Default it looks like:
 
-$ jekyll serve --watch
-# Serve site locally. Now browse to http://localhost:4000
-```
-_Note:  Requires Ruby version 1.9 or above_
+    name: Squared Theme
+    markdown: redcarpet
+    permalink: /:title
+    disqus-id: anandu
+    url: http%3A%2F%2Fanandu.info 
+    twitter-username: anandubajith
+    author: Anandu
 
-## Configuration
-Edit: _config.yml (general options), main.css (theme colors & fonts)
-``` bat
-wangana/
-├── _config.yml
-├── _assets/
-    ├── css/
-        ├── main.scss
-```
+You will need to change <code>name</code> , <code>url</code> , <code>twitter-username</code> and <code>author</code>. All others are optional, Here is what the variables mean.<br>
 
-## Publish to Github Pages
-1. Add your domain to _CNAME_
-2. Edit your repo address at _Rakefile_
+<code>name</code> - The name of your jekyll site.<br>
+<code>markdown</code> - The preferred markdown to use. <br>
+<code>permalink</code> - the permalink to use for your posts.<br>
+<code>disqus-id</code> - the disqus id, if not set comments will not be shown.<br>
+<code>url</code> - The parsed URL of your site.<br>
+<code>twitter-username</code> - Your Twitter username , used while sharing.<br>
+<code>author</code> - Your Name!!.<br><br>
 
-Run rake task. **NOTE: It will deploy the generated site to _gh-pages_ branch overwriting it**
-``` bat
-$ rake site:publish
-```
-_Thanks to [ksaa](https://github.com/ksaa) for rake tasks_
+For more information on Jekyll, visit their [wiki on github](https://github.com/mojombo/jekyll/wiki).
 
-## Screenshot
-![screenshot](https://raw.github.com/nadjetey/wangana/master/assets/images/wangana_screenshot_index.png)
+For more information on github pages: [http://pages.github.com](http://pages.github.com).
 
-## Author
-Made with love from [@_nadjetey](https://twitter.com/_nadjetey).
+License
+====================
+The MIT License (MIT)
 
-## Copyright & License
-The MIT License (MIT), Copyright (c) 2014 Nii Adjetey Sowah. [Read full document.](LICENSE)
+Copyright (c) 2014 Anandu B Ajith
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+

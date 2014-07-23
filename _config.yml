@@ -1,24 +1,9 @@
 name: gRally
-description:  all terrain simulator
-
-sass:
-  sass_dir: assets/css/_sass
-  style: :compressed
-
-# url: http://nadjetey.github.io
-
-owner:
-    name: Nii Adjetey Sowah
-    twitter: ghiboz
-    github: ghiboz
-    disqus_shortname: ghiboz
-
-ga_id: #
-ga_username: #
-
-permalink: /:year/:month/:title/
-timezone: Africa/Accra
-
 markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+pygments: true
+permalink: /:title
+disqus-id: ghiboz
+# put after parsing url
+url: http%3A%2F%2Fgrally.github.io
+twitter-username: ghiboz
+author: ghiboz

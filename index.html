@@ -1,39 +1,20 @@
 ---
 layout: default
+title: Squared Theme
 ---
-<div class="col-sm-12">
-    <div class="posts">
-        {% for post in site.posts %}
-        <div class="post-li">
-            <div class="col-sm-8">
-                <ul class="postlist-block">
-                    <li><time class="timeago postlist-meta" datetime="{{ post.date |  date: "%A %-d %B %Y" }}">{{ post.date }}</time>
-                    <a class="postlist-meta pull-right comments-meta" href="{{ post.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
-                    <li><a class="postlist-title" href="{{ post.url }}">{{ post.title }}</a></li>
-                </ul>
-            </div>
+{% for post in site.posts limit:4 %}
 
-            <div class="col-sm-4 hide-on-phone">
-                <ul class="postlist-block pull-right postlist-meta">
-                    <li><a href="{{ post.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
-                    <li><i><a href="{{ post.url }}">Details...</a></i></li>
-                    <li><strong><a class="postlist-detail-indicator">Expand +</a></strong></li>
-                </ul>
-            </div>
+<article>
+	<a href="{{ post.url }}"><h2 class="title">{{ post.title }}</h2></a>
+	<div class="content">
+	<time>{{ post.date | date_to_string }}</time>
+	</div>
+</article>
 
-            <div class="col-sm-12 postlist-detail">
-                {{post.excerpt}}
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-</div>
+{% endfor %}
 
-<script>
-    $(".post-li .postlist-detail-indicator").click(function() {
-        var preview = $(this);
-        preview.text(preview.text()=='Expand +'?'Collapse -':'Expand +');
+<br>
 
-        $(this).closest(".post-li").find(".postlist-detail").toggle("slow", function() {});
-    });
-</script>
+<aside>
+	<a href="/posts" class="white item">More Posts</a>
+</aside>
