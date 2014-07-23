@@ -20,16 +20,15 @@ custom:
       - name:  another
         title: Another Category
 
-    scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
+    scrollingLoadCount: 2
 
 meta:
     author:
         name: ghiboz
-        email: info@ghiboz.com
-        disqus: your-disqus-short-name              # Disqus缩略标识
-        gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
+        disqus: your-disqus-short-name
+        gcse: 000346898720731947188:13h55x32l0y
         github: ghiboz                 # GitHub账号
-        gravatar: 1cd8c12591616d8c22aaa624f8c07834  # Gravatar头像标识
+        gravatar: 34a79682311898184f8faf73f82026e5  # Gravatar头像标识
 
     disqus: disqus.com/embed.js                     # Disqus评论的JS地址
     gapi: http://www.google.com/jsapi               # Google API地址
