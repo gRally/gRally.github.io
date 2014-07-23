@@ -1,54 +1,26 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>
-      {{ page.title }}
-    </title>
-    <meta name="viewport" content="width=device-width">
-    
-    <!-- Custom Google Font -->
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/main.css">
-    
-  </head>
+  {% include head.html %}
+
   <body>
-    <header>
-      <a href="/">
-        <h1 class="title active drk">
-          {{ site.name }}
-        </h1>
-      </a>
-      <nav>
-        <ul>
-          <li class="item ">
-            <a href="/">
-              Home
-            </a>
-          </li>
-          <li class="item ">
-            <a href="/posts/">
-              Posts
-            </a>
-          </li>
-          <li class="item ">
-            <a href="/about/">
-              About
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    
-    {{ content }}
-    <hr>
-<footer>
-&#169 {{ site.author }}
-</footer>
-   
-  
-</body>
+
+    <div class="container content">
+      <div class="masthead">
+        <h3 class="masthead-title">
+          <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
+          <small>{{ site.tagline }}</small>
+        </h3>
+      </div>
+
+      {{ content }}
+
+      <div class="footer">
+        <p>
+          &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+        </p>
+      </div>
+    </div>
+
+  </body>
 </html>
