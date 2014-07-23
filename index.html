@@ -1,69 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>gRally • all terrain simulator</title>
+---
+layout: nil
+is_index: true
+---
 
-    <!-- Bootstrap -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap theme -->
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/theme.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body role="document">
+{% include header.html %}
+    {% for post in paginator.posts %}
+      {% include post.html %}
+    {% endfor %}
+	
+	<div class="pagination" id="bottom_page">
+		<ul>
+			{% if paginator.previous_page %}
+				{% if paginator.previous_page == 1 %}
+				<li class="previous"><a href="{{ linkhome }}">&larr; Previous</a></li>
+				{% else %}
+				<li class="previous"><a href="{{ site.baseurl }}/page{{ paginator.previous_page }}">&larr; Previous</a></li>
+				{% endif %}
+			{% endif %}
+				<li><p>Page {{ paginator.page }} of {{ paginator.total_pages }}</p></li>
+			{% if paginator.next_page %}
+				<li class="next"><a href="{{ site.baseurl }}/page{{ paginator.next_page }}">Next &rarr;</a></li>
+			{% endif %}
+		</ul>
+	</div>
 
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">gRally developing zone</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-
-    <div class="container theme-showcase" role="main">
-
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>welcome devs and drivers!</h1>
-        <p>This is a website where you can find guides and code to mod <a href="www.grally.net">gRally.net</a></p>
-      </div>
-
-      <div class="page-header">
-        <h1>Wiki</h1>
-      </div>
-      <p>
-        <span class="label label-warning">Under construction</span>
-      </p>
-
-    </div> <!-- /container -->
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  </body>
-</html>
+{% include footer.html %}
