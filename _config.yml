@@ -4,3 +4,4 @@ paginate: 10
 exclude: []
 name: gRally • Bootstrap
 baseurl: /grally.github.io
+markdown: kramdown
