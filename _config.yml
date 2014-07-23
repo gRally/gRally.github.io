@@ -2,8 +2,8 @@ markdown: redcarpet
 highlighter: null
 permalink: /:title
 
-url: grally.github.io
-baseurl:
+url: /grally.github.io
+baseurl: /grally.github.io
 
 redcarpet:
   extensions: [strikethrough, tables]
