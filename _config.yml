@@ -1,9 +1,6 @@
-name: gRally
-markdown: redcarpet
-pygments: true
-permalink: /:title
-disqus-id: ghiboz
-# put after parsing url
-url: http%3A%2F%2Fgrally.github.io
-twitter-username: ghiboz
-author: ghiboz
+# Jekyll
+permalink: /:year/:title/
+paginate: 10
+exclude: []
+name: gRally • Bootstrap
+baseurl: /grally.github.io
