@@ -1,44 +1,69 @@
 ---
-layout: base
+layout: default
 ---
-{% if page.cover_image %}
-<div class="article-cover">
-    <div>
-        <img src="/images/{{ page.cover_image }}" class="image">
-    </div>
-</div>
-{% endif %}
 <article>
-
-    <div class="container">
-        <header>
-            <div class="meta">
-                By <address><a rel="author" href="{{ page.author.link }}" title="{{ page.author.name }}" target="_blank">{{ page.author.name }}</a></address> &mdash;
-                <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}" title="{{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "%B %d, %Y" }}</time>
-            </div>
-            <h1 class="title">{{ page.title }}</h1>
-            {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
-        </header>
-
-        <section>
-            {{ content }}
-            {% include _social.html %}
-        </section>
-
-        <footer>
-            <address>
-               {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
-                <p>Written by <strong><a rel="author" href="https://twitter.com/{{ page.author.twitter }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a></strong><br>
-                <span class="muted">{{ page.author.bio }}</span>
-                </p>
-            </address>
-
-        </footer>
-
-        {% if site.inc.disqus.shortname %}
-        <section>
-            {% include _disqus.html %}
-        </section>
-        {% endif %}
-    </div>
+  <a href="{{ post.url }}">
+    <h2 class="title">
+      {{ page.title }}
+    </h2>
+  </a>
+  <div class="content">
+    {{ content }}
+    <hr>
+    <time>
+      {{ page.date | date_to_string }}
+    </time>
+  </div>
 </article>
+<aside>
+  <h2 class="title blu">
+    Share
+  </h2>
+  <div class="content white">
+    <a href="http://twitter.com/intent/tweet?text={{ page.title | escape }}&url={{ site.url }}{{ page.url | escape }}&via={{ site.twitter-username }}" class="twt">
+      Twitter
+    </a>
+    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url | escape }}" class="gplus">
+      Google+
+    </a>
+    <a href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url | escape }}" class="fb">
+      Facebook
+    </a>
+  </div>
+  
+  <div class="white">
+    {% if site.disqus-id %}
+    <h2 class="title green">
+      Comments
+    </h2>
+    <div class="content">
+      <div id="disqus_thread">
+      </div>
+      <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = '{{ site.disqus-id }}';
+      // required: replace example with your forum shortname
+      
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>
+    Please enable JavaScript to view the 
+    <a href="http://disqus.com/?ref_noscript">
+      comments powered by Disqus.
+    </a>
+  </noscript>
+  <a href="http://disqus.com" class="dsq-brlink">
+    comments powered by 
+    <span class="logo-disqus">
+      Disqus
+    </span>
+  </a>
+  </div>
+  {% endif %}
+  </aside>
+
