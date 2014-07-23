@@ -1,5 +1,5 @@
 name: gRally
-markdown: markdown
+markdown: redcarpet
 pygments: true
 permalink: /:title
 disqus-id: ghiboz
