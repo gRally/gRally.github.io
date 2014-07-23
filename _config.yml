@@ -1,35 +1,13 @@
-markdown: kramdown
-pygments: true
-safe: false
-permalink: /posts/:title.html
-exclude:
-  - README.md
+markdown: redcarpet
+highlighter: null
+permalink: /:title
 
-name: gRally •
-host: grally.github.io
-desc: all terrain simulator
+url: grally.github.io
+baseurl:
 
-custom:
-    category:
-        default: Default Category
-        another: Another Category
-    categories:
-      - name:  default
-        title: Default Category
+redcarpet:
+  extensions: [strikethrough, tables]
 
-      - name:  another
-        title: Another Category
-
-    scrollingLoadCount: 2
-
-meta:
-    author:
-        name: ghiboz
-        disqus: your-disqus-short-name
-        gcse: 000346898720731947188:13h55x32l0y
-        github: ghiboz                 # GitHub账号
-        gravatar: 34a79682311898184f8faf73f82026e5  # Gravatar头像标识
-
-    disqus: disqus.com/embed.js                     # Disqus评论的JS地址
-    gapi: http://www.google.com/jsapi               # Google API地址
-    gravatar: http://en.gravatar.com/avatar/        # Gravatar头像服务器地址
+sass:
+  sass_dir: public/css
+  style: :compressed
