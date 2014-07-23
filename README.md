@@ -1,26 +1,63 @@
-[Noita][demo]
-==================
+# Jekyll Incorporated
+Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)
 
-[![Build Status][ci-badge]][ci]
+## Installation & Usage
+    bundle install
+    jekyll serve --watch
 
-[Jekyll][jekyll] theme built with [Foundation][foundation]. Check out the [demo site][demo] with description and tests.
+_Note: Requires Ruby version 1.9.3 =>. For example use [rbenv](https://github.com/sstephenson/rbenv)_   
+    
+## Configuration
+Edit: _config.yml (general options), main.css (theme colors &amp; fonts)
 
-## Installation Instructions
-
-Foundation is a submodule of this project so if you want to install `jekyll-noita` on your local machine follow these steps.
-
-```bash
-git clone git@github.com:penibelst/jekyll-noita.git
-cd jekyll-noita
-git submodule init
-git submodule update
-jekyll serve
+```
+jekyll-incorporated/
+├── _config.yml
+├── _assets/
+    ├── stylesheets/
+        ├── main.scss
 ```
 
-You will find your blog at `http://0.0.0.0:4000/`
+_Note: when editing _config.yml, you need to restart jekyll to see the changes.__
 
-[ci]: https://travis-ci.org/penibelst/jekyll-noita
-[ci-badge]: https://travis-ci.org/penibelst/jekyll-noita.svg?branch=gh-pages
-[demo]: http://noita.penibelst.de/
-[foundation]: http://foundation.zurb.com/
-[jekyll]: http://jekyllrb.com/
+    
+## Publish to Github Pages
+1. Add your domain to _CNAME_
+2. Edit your repo address at _Rakefile_
+    
+Run rake task. **NOTE: It will deploy the generated site to _gh-pages_ branch overwriting it**    
+``` 
+rake site:publish
+```
+
+## Usage examples
+
+* Adroll Engineering http://tech.adroll.com/
+* Brace.io blog http://blog.brace.io/
+* Spark.io blog http://blog.spark.io/
+* Department of Better Technology http://blog.dobt.co/
+
+## Authors
+
+Originally build for [sendtoinc.com](https://sendtoinc.com), your workspace for sharing and organizing knowledge
+
+**Karri Saarinen**
+
++ [http://twitter.com/karrisaarinen](http://twitter.com/karrisaarinen)
++ [http://github.com/ksaa](http://github.com/ksaa)
+
+**Jori Lallo**
+
++ [http://twitter.com/jorilallo](http://twitter.com/jorilallo)
++ [http://github.com/jorde](http://github.com/jorilallo)
+
+## Todo:
+
++ Documentation
++ Less config files
++ Better deploy scripts
+
+## Copyright and license
+
+Copyright 2013 Kippt Inc. under [The MIT License ](LICENSE)
+
