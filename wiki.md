@@ -3,10 +3,7 @@ layout: page
 title: Wiki
 ---
 
-* [gRally Wiki](https://github.com/gRally/gRally.github.io/wiki)
-
-
-* [Home](https://github.com/gRally/dev/wiki/Home)
+* [gRally Wiki](https://github.com/gRally/dev/wiki/Home)
 * [gTrackEditor](https://github.com/gRally/dev/wiki/gTrackEditor)
 * [Shaders](https://github.com/gRally/dev/wiki/Shaders)
  * [grsD](https://github.com/gRally/dev/wiki/grsD)
