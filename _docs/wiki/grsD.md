@@ -1,3 +1,8 @@
+---
+layout: page
+title: grsD
+---
+
 Questo shader è il più semplice: una sola texture *(diffuse)* e basta.
 ```
 material MT_Test2
