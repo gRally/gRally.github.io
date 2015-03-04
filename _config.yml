@@ -4,7 +4,7 @@ meta_description: "gRally sim under the hoods"
 
 markdown: redcarpet
 highlighter: pygments
-logo: false
+logo: true
 paginate: 15
 baseurl: /
 domain_name: 'http://dev.grally.net'
