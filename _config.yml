@@ -1,28 +1,28 @@
-name: gRally dev corner
-description: gRally Sim under the hoods
-meta_description: "gRally sim under the hoods"
+# Dependencies
+markdown:         redcarpet
+pygments:         true
 
-markdown: redcarpet
-highlighter: pygments
-logo: true
-paginate: 15
-baseurl: /
-domain_name: 'http://dev.grally.net'
-google_analytics: 'UA-XXXXXXXX-X'
-permalink: /archive/:year/:month/:day/:title/
+# Permalinks
+permalink:        pretty
 
-# Details for the RSS feed generator
-url:            'http://dev.grally.net'
-author:         'ghiboz'
+# Setup
+title:            gRally
+description:      all terrain simulator
+tagline:          all terrain simulator
+url:              http://grally.github.io
+paginate:         1
+baseurl:          /
+author:
+  name:           ghiboz
+  url:            https://twitter.com/ghiboz
 
-# Github repositories
-github_user: ghiboz
-github_repo_url: https://github.com/gRally/gRally.github.io
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/
+  wiki:           https://github.com/gRally/gRally.github.io/wiki
 
-# Twitter
-twitter_user: ghiboz
-twitter_tweet_button: true
-
-# Disqus Comments
-disqus_short_name: grallygithubio
-disqus_show_comment_count: true
+# collections
+collections:
+  docs:
+    output: true

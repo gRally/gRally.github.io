@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me 
+title: About
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+more informations on [gRally website](http://www.grally.net) and [@gRallySim](https://twitter.com/gRallySim)
