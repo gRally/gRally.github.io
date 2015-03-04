@@ -10,7 +10,7 @@ title:            gRally
 description:      all terrain simulator
 tagline:          all terrain simulator
 url:              http://grally.github.io
-paginate:         3
+#paginate:         1
 baseurl:          /
 author:
   name:           ghiboz
@@ -26,3 +26,7 @@ github:
 collections:
   docs:
     output: true
+
+#paginate
+paginator:
+  posts:          6
