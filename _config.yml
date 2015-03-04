@@ -1,15 +1,28 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: gRally dev corner
+description: gRally Sim under the hoods
+meta_description: "gRally sim under the hoods"
 
 markdown: redcarpet
 highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://dev.grally.net'
 google_analytics: 'UA-XXXXXXXX-X'
+permalink: /archive/:year/:month/:day/:title/
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'http://dev.grally.net'
+author:         'ghiboz'
+
+# Github repositories
+github_user: ghiboz
+github_repo_url: https://github.com/gRally/gRally.github.io
+
+# Twitter
+twitter_user: ghiboz
+twitter_tweet_button: true
+
+# Disqus Comments
+disqus_short_name: ghiboz
+disqus_show_comment_count: true
