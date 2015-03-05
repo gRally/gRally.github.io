@@ -13,9 +13,8 @@ title: Home
     </h1>
     <span class="post-date">{{ post.date | date_to_string }}</span>
     {{ post.content }}
-    <div align="right">by {{ post.author }}</div>
+    <div align="right">by <a href="{{ post.author-twitter }}">{{ post.author }}</a></div>
   </div>
-  <div align="right">by {{ post.author }}</div>
   {% endfor %}
 </div>
 
