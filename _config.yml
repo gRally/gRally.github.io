@@ -28,5 +28,5 @@ collections:
     output: true
 
 #paginate
-paginator:
-  posts:          6
+#paginator:
+#  posts:          6
