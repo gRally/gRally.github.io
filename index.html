@@ -13,7 +13,9 @@ title: Home
     </h1>
     <span class="post-date">{{ post.date | date_to_string }}</span>
     {{ post.content }}
+    {% if post.author %}
     <div align="right">by <a href="{{ post.author-twitter }}">{{ post.author }}</a></div>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
