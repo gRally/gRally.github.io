@@ -14,8 +14,13 @@ title: Home
     <span class="post-date">{{ post.date | date_to_string }}</span>
     {{ post.content }}
     {% if post.author %}
-    <div align="right">by <a href="{{ post.author-twitter }}">{{ post.author }}</a></div>
+      {% if post.author-twitter %}
+    <div align="right">by <a class="icon-twitter" href="{{ post.author-twitter }}">{{ post.author }}</a></div>
+      {% else %}
+    <div align="right">by {{ post.author }}</div>
+      {% endif %}
     {% endif %}
+
   </div>
   {% endfor %}
 </div>

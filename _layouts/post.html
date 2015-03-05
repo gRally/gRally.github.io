@@ -7,11 +7,15 @@ layout: default
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
   {% if page.author %}
-  <div align="right">by <a href="{{ page.author-twitter }}">{{ page.author }}</a></div>
+    {% if page.author-twitter %}
+  <div align="right">by <a class="icon-twitter" href="{{ page.author-twitter }}">{{ page.author }}</a></div>
+    {% else %}
+  <div align="right">by {{ page.author }}</div>
+    {% endif %}
   {% endif %}
 
   <!-- Share links section -->
-  {% include share.html %}  
+  {% include share.html %}
 </div>
 
 <div class="related">
