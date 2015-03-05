@@ -10,6 +10,7 @@ title:            gRally
 description:      all terrain simulator
 tagline:          all terrain simulator
 url:              http://grally.github.io
+domain_name:      http://dev.grally.net
 paginate:         6
 baseurl:          /
 author:
