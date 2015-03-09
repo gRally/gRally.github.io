@@ -38,7 +38,7 @@
 }
 .icon-twitter:before {
     content: "\f602";
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
 }
 .icon-google-plus:before {
     content: "\f603";
