@@ -36,7 +36,14 @@ The crazy programmer.
 <a class="fa fa-globe" href="http://www.ghiboz.com" target="_blank">ghiboz.com</a>
 
 <ul>
-    <li class="fa fa-twitter"><a href="https://twitter.com/ghiboz" target="_blank">@ghiboz</a></li>
+    <li class="fa fa-twitter">[@ghiboz](https://twitter.com/ghiboz)</li>
+
+    <li class="fa fa-globe">[ghiboz.com](http://www.ghiboz.com)</li>
+</ul>
+
+
+<ul>
+    <li class="fa fa-twitter"><a href="https://twitter.com/ghiboz" target="_blank">@ghiboz</a></li></br>
     <li class="fa fa-globe"><a href="http://www.ghiboz.com" target="_blank">ghiboz.com</a></li>
 </ul>
 ---
