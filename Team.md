@@ -8,7 +8,7 @@ The gRally team is composed by:
 ## Gigi *'gundam'* Alessio
 The 3D modeler with a memory like a goldfish.
 
-<a class="fa-twitter" href="https://twitter.com/GGA2014">@GGA2014</a>
+<a class="fa fa-twitter" href="https://twitter.com/GGA2014">@GGA2014</a>
 
 ---
 
@@ -20,7 +20,7 @@ The fairy foot driver and physics creator.
 ## Stefano *'genlyai'* Balzani
 The mathematician, proud excel builder and occasionally programmer.
 
-<a class="fa-twitter" href="https://twitter.com/Genly_Ai">@Genly_Ai</a>
+<a class="fa fa-twitter" href="https://twitter.com/Genly_Ai">@Genly_Ai</a>
 
 ---
 
@@ -32,7 +32,7 @@ The 3D artist. an RGB man.
 ## Paolo *'ghiboz'* Ghibaudo
 The crazy programmer.
 
-<a class="fa-twitter" href="https://twitter.com/ghiboz">@ghiboz</a>
+<a class="fa fa-twitter" href="https://twitter.com/ghiboz">@ghiboz</a>
 
 ---
 
