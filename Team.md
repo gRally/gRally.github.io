@@ -40,6 +40,7 @@ The 3D artist. an RGB man.
 
 ## Paolo *'ghiboz'* Ghibaudo
 The crazy programmer.
+
 <ul>
     <li class="fa fa-twitter"><a href="https://twitter.com/ghiboz" target="_blank">@ghiboz</a></li>
 
