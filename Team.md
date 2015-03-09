@@ -26,8 +26,7 @@ The fairy foot driver and physics creator.
 The mathematician, proud excel builder and occasionally programmer.
 
 <ul>
-    <li class="fa fa-twitter"><a href="https://twitter.com/Genly_Ai" target="_blank">@Genly_Ai</a></li>
-
+    <li class="fa fa-twitter"><a href="https://twitter.com/Genly_Ai" target="_blank">@Genly_Ai</a></li></br>
     <li class="fa fa-globe"><a href="http://www.genlyai.net" target="_blank">genlyai.net</a></li>
 </ul>
 
@@ -42,8 +41,7 @@ The 3D artist. an RGB man.
 The crazy programmer.
 
 <ul>
-    <li class="fa fa-twitter"><a href="https://twitter.com/ghiboz" target="_blank">@ghiboz</a></li>
-
+    <li class="fa fa-twitter"><a href="https://twitter.com/ghiboz" target="_blank">@ghiboz</a></li><br>
     <li class="fa fa-globe"><a href="http://www.ghiboz.com" target="_blank">ghiboz.com</a></li>
 </ul>
 
