@@ -19,6 +19,7 @@ The 3D artist. an RGB man.
 
 ## Paolo *'ghiboz'* Ghibaudo
 The crazy programmer.
+<div align="right">by <a class="icon-twitter" href="https://twitter.com/ghiboz">@ghiboz</a></div>
 
 ## Luca *'mulder'* Giraldi
 The growler graphics.
