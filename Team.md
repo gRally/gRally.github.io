@@ -52,3 +52,7 @@ The crazy programmer.
 ## Luca *'mulder'* Giraldi
 ![mulder]({{ site.domain_name }}/img/mulder.png)
 The growler graphics.
+
+<ul>
+    <li class="fa fa-globe"><a href="http://www.formulazero.it" target="_blank"> formulazero.it</a></li>
+</ul>
