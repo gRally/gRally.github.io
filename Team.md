@@ -9,7 +9,7 @@ The gRally team is composed by:
 The 3D modeler with a memory like a goldfish.
 
 <ul>
-    <li class="fa fa-twitter"><a href="https://twitter.com/GGA2014" target="_blank">&nbsp;</a></li>
+    <a href="https://twitter.com/GGA2014" target="_blank"><li class="fa fa-twitter">&nbsp;</li></a>
 </ul>
 
 ---
@@ -18,7 +18,7 @@ The 3D modeler with a memory like a goldfish.
 ![sydney]({{ site.domain_name }}/img/sydney.png)
 The fairy foot driver and physics creator.
 <ul>
-    <li class="fa fa-globe"><a href="http://www.andreabaldi.net" target="_blank">&nbsp;</a></li>
+    <a href="http://www.andreabaldi.net" target="_blank"><li class="fa fa-globe">&nbsp;</li></a>
 </ul>
 
 ---
@@ -28,8 +28,8 @@ The fairy foot driver and physics creator.
 The mathematician, proud excel builder and occasionally programmer.
 
 <ul>
-    <li class="fa fa-twitter"><a href="https://twitter.com/Genly_Ai" target="_blank">&nbsp;</a></li>
-    <li class="fa fa-globe"><a href="http://www.genlyai.net" target="_blank">&nbsp;</a></li>
+    <a href="https://twitter.com/Genly_Ai" target="_blank"><li class="fa fa-twitter">&nbsp;</li></a>
+    <a href="http://www.genlyai.net" target="_blank"><li class="fa fa-globe">&nbsp;</li></a>
 </ul>
 
 ---
@@ -56,5 +56,5 @@ The crazy programmer.
 The growler graphics.
 
 <ul>
-    <li class="fa fa-globe"><a href="http://www.formulazero.it" target="_blank">&nbsp;</a></li>
+    <a href="http://www.formulazero.it" target="_blank"><li class="fa fa-globe">&nbsp;</li></a>
 </ul>
