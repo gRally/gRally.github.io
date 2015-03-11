@@ -9,7 +9,7 @@ The gRally team is composed by:
 The 3D modeler with a memory like a goldfish.
 
 <ul>
-    <li class="fa fa-twitter"><a href="https://twitter.com/GGA2014" target="_blank"> @GGA2014</a></li>
+    <li class="fa fa-twitter"><a href="https://twitter.com/GGA2014" target="_blank">&nbsp;</a></li>
 </ul>
 
 ---
@@ -18,7 +18,7 @@ The 3D modeler with a memory like a goldfish.
 ![sydney]({{ site.domain_name }}/img/sydney.png)
 The fairy foot driver and physics creator.
 <ul>
-    <li class="fa fa-globe"><a href="http://www.andreabaldi.net" target="_blank"> andreabaldi.net</a></li>
+    <li class="fa fa-globe"><a href="http://www.andreabaldi.net" target="_blank">&nbsp;</a></li>
 </ul>
 
 ---
@@ -28,8 +28,8 @@ The fairy foot driver and physics creator.
 The mathematician, proud excel builder and occasionally programmer.
 
 <ul>
-    <li class="fa fa-twitter"><a href="https://twitter.com/Genly_Ai" target="_blank"> @Genly_Ai</a></li></br>
-    <li class="fa fa-globe"><a href="http://www.genlyai.net" target="_blank"> genlyai.net</a></li>
+    <li class="fa fa-twitter"><a href="https://twitter.com/Genly_Ai" target="_blank">&nbsp;</a></li>
+    <li class="fa fa-globe"><a href="http://www.genlyai.net" target="_blank">&nbsp;</a></li>
 </ul>
 
 ---
@@ -45,8 +45,8 @@ The 3D artist... an RGB man.
 The crazy programmer.
 
 <ul>
-    <li class="fa fa-twitter"><a href="https://twitter.com/ghiboz" target="_blank"> @ghiboz</a></li><br>
-    <li class="fa fa-globe"><a href="http://www.ghiboz.com" target="_blank"> ghiboz.com</a></li>
+    <li class="fa fa-twitter"><a href="https://twitter.com/ghiboz" target="_blank">&nbsp;</a></li>
+    <li class="fa fa-globe"><a href="http://www.ghiboz.com" target="_blank">&nbsp;</a></li>
 </ul>
 
 ---
@@ -56,5 +56,5 @@ The crazy programmer.
 The growler graphics.
 
 <ul>
-    <li class="fa fa-globe"><a href="http://www.formulazero.it" target="_blank"> formulazero.it</a></li>
+    <li class="fa fa-globe"><a href="http://www.formulazero.it" target="_blank">&nbsp;</a></li>
 </ul>
