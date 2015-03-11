@@ -45,8 +45,8 @@ The 3D artist... an RGB man.
 The crazy programmer.
 
 <ul>
-    <li class="fa fa-twitter"><a href="https://twitter.com/ghiboz" target="_blank">&nbsp;</a></li>
-    <li class="fa fa-globe"><a href="http://www.ghiboz.com" target="_blank">&nbsp;</a></li>
+    <a href="https://twitter.com/ghiboz" target="_blank"><li class="fa fa-twitter">&nbsp;</li></a>
+    <a href="http://www.ghiboz.com" target="_blank"><li class="fa fa-globe">&nbsp;</li></a>
 </ul>
 
 ---
