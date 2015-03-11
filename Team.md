@@ -58,7 +58,7 @@ The growler graphics.
 
 ---
 
-## Alberto *'albim75' Montanari
+## Alberto *'albim75'* Montanari
 ![albim75]({{ site.domain_name }}/img/albim75.png)
 The real rally driver inside us.
 <ul>
