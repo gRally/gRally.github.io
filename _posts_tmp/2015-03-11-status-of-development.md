@@ -3,6 +3,7 @@ layout: post
 title: Status of Development
 author: ghiboz
 author-twitter: https://twitter.com/ghiboz
+image-evidence: http://dev.grally.net/img/rock.jpg
 ---
 
 Hi all,
