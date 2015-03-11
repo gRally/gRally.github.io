@@ -36,7 +36,7 @@ The mathematician, proud excel builder and occasionally programmer.
 
 ## Riccardo *'marcatore'* Barducco
 ![marcatore]({{ site.domain_name }}/img/marcatore.png)
-The 3D artist. an RGB man.
+The 3D artist... an RGB man.
 
 ---
 
