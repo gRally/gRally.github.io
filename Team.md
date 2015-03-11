@@ -15,6 +15,7 @@ The 3D modeler with a memory like a goldfish.
 ---
 
 ## Andrea *'sydney'* Baldi
+![sydney]({{ site.domain_name }}/img/sydney.png)
 The fairy foot driver and physics creator.
 <ul>
     <li class="fa fa-globe"><a href="http://www.andreabaldi.net" target="_blank"> andreabaldi.net</a></li>
@@ -34,6 +35,7 @@ The mathematician, proud excel builder and occasionally programmer.
 ---
 
 ## Riccardo *'marcatore'* Barducco
+![marcatore]({{ site.domain_name }}/img/marcatore.png)
 The 3D artist. an RGB man.
 
 ---
