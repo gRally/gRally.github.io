@@ -8,13 +8,14 @@ author-twitter: https://twitter.com/ghiboz
 Hi all,
 this is a small post to inform you about the status of **gRally**.
 
-Many people ask to become beta tester.. well, unfortunately is not yet the moment, 'cause we need more time to make **gRally** usable in your pc, but we're not far from this point :)
+Many people are asking if the project is still alive or to become beta tester... We have one good and one bad news for you. The good news is that the project is more than alive and running. The problem is that it's running too fast and the things that we're adding, revising, recoding are so many that we've not reached yet the moment in which we say "ok, now let's see what the other think about **gRally**. And this is, at the end, the bad news. We are not able to open the beta testing phase yet because we need more time to make **gRally** usable in your pc, but we're not far from this point :)
 
-In the past months we made great things about the details of the stage `Baitoni Bondone`, improving the shaders and the lights to allow the best yield to the great work due by the 3d artists.
+Yes, we know. We were saying that a beta version should have been ready by the end of last year but you're not testing everything but your patience. But, as we were saying, in the past months we worked hard on several aspect of the graphical engine improving the shaders and the lights to allow the best yield to the great work due by the 3d artists. You will be surprised by the impressing level of details of the special stage `Baitoni Bondone`, for example.
 
 ![](http://dev.grally.net/img/rock.jpg)
 
 ![](http://dev.grally.net/img/collage.jpg)
 
-Another thing is to test the new [Ogre 2.1](http://www.ogre3d.org) as graphics rendering engine, with  64 bits compiled, DirectX 11 and the [PBS shaders](https://www.allegorithmic.com/pbr-guide).
-At the moment the things to do are infinite, but the first attempt is a great start point!
+In all these months we've not worked only on this, but also - as maybe some of you have already noticed - on testing **gRally** with the new [Ogre 2.1](http://www.ogre3d.org) as graphics rendering engine, with  64 bits compiled, DirectX 11 and the [PBS shaders](https://www.allegorithmic.com/pbr-guide). The video you can find on the web, that made a lot of noise with people complaining for the graphical quality, was really and literally a "drag & drop" of one early version of the `Baitoni Bondone` inside the new Ogre. Despite the critics, we were more than happy because it worked properly with no specific coding! Of course, to use all the potential of the new Ogre, there are a lot of things to do, but the first attempt is a great starting point!
+
+Keep following us and we will not disappoint you!
