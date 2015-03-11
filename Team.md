@@ -55,3 +55,12 @@ The growler graphics.
 <ul>
     <a href="http://www.formulazero.it" target="_blank"><li class="fa fa-globe">&nbsp;</li></a>
 </ul>
+
+---
+
+## Alberto *'albim75' Montanari
+![albim75]({{ site.domain_name }}/img/albim75.png)
+The real rally driver inside us.
+<ul>
+    <a href="https://twitter.com/albim75" target="_blank"><li class="fa fa-twitter">&nbsp;</li></a>
+</ul>
