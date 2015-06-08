@@ -13,6 +13,7 @@ First of all, the new logo set, built by our friend **N1k77** ( [core41.com] (ht
 ![](http://dev.grally.net/img/new-logo.png)
 
 Here are the new things:
+
  * Switched again to [Unity3d](http://www.unity3d.org) v5.
  * 64 bits program.
  * [DirectX 11](http://windows.microsoft.com/en-US/windows7/products/features/directx-11).
@@ -35,6 +36,7 @@ About the monitor management:
 ![Triple monitor with separated rendering unedited shot](http://dev.grally.net/img/tri_separated_render.png)
 
 This configuration is made by these settings:
+
  * **distance**: the distance between the eye and the front monitor.
  * **width**: the width of the monitor.
  * **bezel**: the size of the border between the center and the side monitors.
