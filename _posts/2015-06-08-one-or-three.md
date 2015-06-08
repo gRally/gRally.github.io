@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Many News
+title: One or Three?
 author: ghiboz
 author-twitter: https://twitter.com/ghiboz
 image-evidence: http://dev.grally.net/img/single.png
