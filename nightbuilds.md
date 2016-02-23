@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Night Builds
+title: NightBuilds
 ---
 
 {% directory path: nb %}
