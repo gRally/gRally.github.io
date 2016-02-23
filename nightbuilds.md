@@ -4,5 +4,5 @@ title: Night Builds
 ---
 
 {% loop_directory directory:nb iterator:image filter:*.rar sort:descending %}
-  {{image}}
+  {{image}}...
 {% endloop_directory %}
