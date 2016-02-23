@@ -2,5 +2,8 @@
 layout: page
 title: Night Builds
 ---
-
-test
+<ul>
+{% loop_directory directory:nb iterator:image filter:*.rar sort:descending %}
+  <li><a href="{{ image }}">{{image}}</a></li>
+{% endloop_directory %}
+</ul>
