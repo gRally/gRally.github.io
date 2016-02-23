@@ -3,6 +3,6 @@ layout: page
 title: Night Builds
 ---
 
-{% loop_directory directory:nb iterator:image filter:*.rar sort:descending %}
-  {{image}}...
-{% endloop_directory %}
+{% directory path: nb %}
+  <a href="{{ file.url }}" >{{ file.name }}</a>{% unless forloop.last %}, {% endunless %}
+{% enddirectory %}
