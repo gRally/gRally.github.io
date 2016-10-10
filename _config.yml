@@ -2,13 +2,13 @@
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Jekyll Documentation Theme
+topnav_title: gRally Documentation corner
 # this appears on the top navigation bar next to the home button
 
-site_title: Jekyll theme for documentation
+site_title: gRally Documentation corner
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Your company
+company_name: gRally.net
 # this appears in the footer
 
 github_editme_path: tomjohnson1492/documentation-theme-jekyll/blob/gh-pages/pages/
@@ -30,7 +30,7 @@ exclude:
 
 feedback_subject_line: Jekyll documentation theme
 
-feedback_email: tomjohnson1492@gmail.com
+feedback_email: info@grally.net
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
