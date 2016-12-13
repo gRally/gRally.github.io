@@ -1,31 +1,46 @@
-<!-- meta information -->
-<meta charset="utf-8">
-<meta name="description" {% if page.title == "Home" %}
-      content="{{ site.description }}" {% else %}
-      content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" {% endif %}>
-<meta name="author" content="{{ site.author }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<!-- Enable responsiveness on mobile devices-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author.name }}">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<!-- title -->
-<title>{{ page.title }} &middot; {{ site.data.brume.name }}</title>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
 
-<!-- icons -->
-<link rel="shortcut icon" href="{{site.baseurl}}/public/images/favicon.ico" />
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
 
-<!-- stylesheets -->
-<link rel="stylesheet" href="{{site.baseurl}}/public/css/responsive.gs.12col.css">
-<link rel="stylesheet" href="{{site.baseurl}}/public/css/animate.min.css">
-<link rel="stylesheet" href="{{site.baseurl}}/public/css/main.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ "images/favicons/apple-touch-icon-57x57.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{ "images/favicons/apple-touch-icon-60x60.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ "images/favicons/apple-touch-icon-72x72.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ "images/favicons/apple-touch-icon-76x76.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ "images/favicons/apple-touch-icon-114x114.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ "images/favicons/apple-touch-icon-120x120.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ "images/favicons/apple-touch-icon-144x144.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ "images/favicons/apple-touch-icon-152x152.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/favicons/apple-touch-icon-180x180.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" href="{{ "images/favicons/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ "images/favicons/favicon-194x194.png" | prepend: site.baseurl }}" sizes="194x194">
+  <link rel="icon" type="image/png" href="{{ "images/favicons/favicon-96x96.png" | prepend: site.baseurl }}" sizes="96x96">
+  <link rel="icon" type="image/png" href="{{ "images/favicons/android-chrome-192x192.png" | prepend: site.baseurl }}" sizes="192x192">
+  <link rel="icon" type="image/png" href="{{ "images/favicons/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16">
+  <link rel="manifest" href="{{ "images/favicons/manifest.json" | prepend: site.baseurl }}">
+  <link rel="shortcut icon" href="{{ "images/favicons/favicon.ico" | prepend: site.baseurl }}">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="msapplication-TileImage" content="{{ "images/favicons/mstile-144x144.png" | prepend: site.baseurl }}">
+  <meta name="theme-color" content="#ffffff">
 
-<!-- Google fonts -->
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&subset=latin-ext">
-
-{% if site.paginate %}
-<!-- font Awesome -->
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-{% endif %}
-
-<!-- feed links -->
-<link rel="alternate" href="{{ site.url }}{{ site.baseurl }}/feed.xml" type="application/rss+xml" title="{{ site.name }}">
+  <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}feed.xml">
+</head>

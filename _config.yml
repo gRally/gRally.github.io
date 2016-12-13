@@ -1,13 +1,38 @@
-title: Brume
-author: Aigars Dzerviniks
-description: It's simple. It's easy to use. It's a Jekyll theme.
+# Site settings
+title: gRally • changelog
+description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+url: 'http://joshgerdes.com/jekyll-uno'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+disqus_shortname: 'ghiboz'
 
-highlighter: null
-permalink: /:title
+author:
+  name: 'gRally'
+  email: info@grally.net
+  twitter_username: grallysim
+  facebook_username: grallysim
+  github_username:  grallysim
 
-url: http://docs.grally.net/
-baseurl:
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
-sass:
-  sass_dir: public/css
-  style: :compressed
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate', 'jekyll-mentions', 'jekyll-sitemap', 'jemoji']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
