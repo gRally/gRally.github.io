@@ -1,17 +1,17 @@
 # Site settings
 title: gRally • changelog
 description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
+url: 'http://docs.grally.net/'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'ghiboz'
 
 author:
   name: 'gRally'
-  email: info@grally.net
-  twitter_username: grallysim
-  facebook_username: grallysim
-  github_username:  grallysim
+  #email: info@grally.net
+  twitter_username: gRallySim
+  facebook_username: gRallySim
+  github_username:  gRallySim
 
 defaults:
   -
@@ -22,7 +22,7 @@ defaults:
         layout: 'post'
 
 # Build settings
-destination: _site
+destination: _posts
 paginate: 10
 permalink: /:title/
 markdown: kramdown
