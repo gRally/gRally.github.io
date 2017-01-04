@@ -131,7 +131,7 @@ img
 }
 
 .change-label {
-  float:right;
+  float:left;
   border-radius:6px;
   color:#FFFFFF;
   display:inline-block;
@@ -146,7 +146,7 @@ img
 }
 
 .change-label-element {
-	float:right;
+  float:left;
   border-radius:6px;
   color:#FFFFFF;
   display:inline-block;
