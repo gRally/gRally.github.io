@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Generated with pretzel -->
+  
+  <url>
+    <loc>http://domain/2017/01/03/0.4.6.15.html</loc>
+    <lastmod>2017-01-03T00:00:00+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  
+  <url>
+    <loc>http://domain/2016/12/19/0.4.5.4.html</loc>
+    <lastmod>2016-12-19T00:00:00+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  
+  <url>
+    <loc>http://domain/2016/12/09/0.4.4.26.html</loc>
+    <lastmod>2016-12-09T00:00:00+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  
+  <url>
+    <loc>http://domain/2016/12/08/0.4.4.25.html</loc>
+    <lastmod>2016-12-08T00:00:00+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  
+  <url>
+    <loc>http://domain/2016/12/06/0.4.4.24.html</loc>
+    <lastmod>2016-12-06T00:00:00+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  
+  <url>
+    <loc>http://domain/2016/12/04/0.4.4.23.html</loc>
+    <lastmod>2016-12-04T00:00:00+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  
+  <url>
+    <loc>http://domain/2016/02/21/0.3.18.6.html</loc>
+    <lastmod>2016-02-21T00:00:00+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  
+  <url>
+    <loc>http://domain/2016/02/12/0.3.17.6.html</loc>
+    <lastmod>2016-02-12T00:00:00+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  
+  <url>
+    <loc>http://domain/2007/01/03/mysecondpost.html</loc>
+    <lastmod>2007-01-03T00:00:00+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  
+  <url>
+    <loc>http://domain/2007/01/02/myfirstpost.html</loc>
+    <lastmod>2007-01-02T00:00:00+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  
+  
+  
+	
+	<url>
+		<loc>http://domain/atom.xml</loc>
+		<changefreq>daily</changefreq>
+		<priority>1.00</priority>
+	</url>
+	
+  
+	
+	<url>
+		<loc>http://domain/index.html</loc>
+		<changefreq>daily</changefreq>
+		<priority>1.00</priority>
+	</url>
+	
+  
+	
+	<url>
+		<loc>http://domain/rss.xml</loc>
+		<changefreq>daily</changefreq>
+		<priority>1.00</priority>
+	</url>
+	
+  
+	
+	<url>
+		<loc>http://domain/sitemap.xml</loc>
+		<changefreq>daily</changefreq>
+		<priority>1.00</priority>
+	</url>
+	
+  
+	
+  
+	
+  
+	
+  
+	
+  
+	
+  
+</urlset>

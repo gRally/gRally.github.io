@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Feed Name</title>
+  <link href="http://domain/"/>
+  <link type="application/atom+xml" rel="self" href="http://domain/atom.xml"/>
+  <updated>2017-01-04T09:23:29.0978175+01:00</updated>
+  <id>http://domain/</id>
+  <author>
+    <name>Author</name>
+    <email>Email</email>
+  </author>
+
+  
+  <entry>
+    <id>http://domain//2017/01/03/0.4.6.15.html</id>
+    <link type="text/html" rel="alternate" href="http://domain//2017/01/03/0.4.6.15.html"/>
+    <title>0.4.6.15</title>
+    <updated>2017-01-03T00:00:00+01:00</updated>
+    <author>
+      <name>Author</name>
+      <uri>http://domain/</uri>
+    </author>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;F|[Menu] Fix config controls: &lt;a href=&quot;https://github.com/gRally/dev/issues/368&quot;&gt;#368&lt;/a&gt; &lt;a href=&quot;https://github.com/gRally/dev/issues/373&quot;&gt;#373&lt;/a&gt; &lt;a href=&quot;https://github.com/gRally/dev/issues/374&quot;&gt;#374&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;A|[Menu] New Audio config page: &lt;a href=&quot;https://github.com/gRally/dev/issues/345&quot;&gt;#345&lt;/a&gt; &lt;a href=&quot;https://github.com/gRally/dev/issues/346&quot;&gt;#346&lt;/a&gt; &lt;a href=&quot;https://github.com/gRally/dev/issues/367&quot;&gt;#367&lt;/a&gt;; &lt;img src=&quot;http://i.imgur.com/1OMIuga.png&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;F|[Graphics] Headlights in replay: &lt;a href=&quot;https://github.com/gRally/dev/issues/377&quot;&gt;#377&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;I|[Menu] &lt;a href=&quot;http://mahapps.com/&quot;&gt;MahApps.Metro&lt;/a&gt; v1.4;&lt;/li&gt;
+&lt;li&gt;F|[Core] Alt tab crash: &lt;a href=&quot;https://github.com/gRally/dev/issues/376&quot;&gt;#376&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;I|[Physics] Feedback feeling at low speed;&lt;/li&gt;
+&lt;li&gt;I|[Physics] The wheel is autocenter when you enter in game;&lt;/li&gt;
+&lt;li&gt;I|[Graphics] Now the ui is shown: &lt;a href=&quot;https://github.com/gRally/dev/issues/365&quot;&gt;#365&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;I|Happy new year! :dizzy: :beers:&lt;/li&gt;
+&lt;li&gt;&lt;div class=&quot;change-label-container&quot;&gt;&lt;em class=&quot;change-label change-added&quot;&gt;Added&lt;/em&gt;&lt;/div&gt; &lt;div class=&quot;change-label-element change-element&quot;&gt;Menu&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://domain//2016/12/19/0.4.5.4.html</id>
+    <link type="text/html" rel="alternate" href="http://domain//2016/12/19/0.4.5.4.html"/>
+    <title>0.4.5.4</title>
+    <updated>2016-12-19T00:00:00+01:00</updated>
+    <author>
+      <name>Author</name>
+      <uri>http://domain/</uri>
+    </author>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;I|[Physics] car log position and rotation;&lt;/li&gt;
+&lt;li&gt;I|[Showroom] postprocessing like ingame;&lt;/li&gt;
+&lt;li&gt;F|[Menu] &lt;a href=&quot;https://github.com/gRally/dev/issues/366&quot;&gt;#366&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;F|[Controls] &lt;a href=&quot;https://github.com/gRally/dev/issues/369&quot;&gt;#369&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;F|[Showroom] &lt;a href=&quot;https://github.com/gRally/dev/issues/372&quot;&gt;#372&lt;/a&gt; is not almost completely fixed but works now;&lt;/li&gt;
+&lt;li&gt;I|[Controls] Now the analogic controls can be used with a digital control &lt;em&gt;(like a button or a key)&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;F|[Physics] Sometimes the car fly or is uncontrollable;&lt;/li&gt;
+&lt;li&gt;A|Merry Christmas! :santa: :christmas_tree:;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://domain//2016/12/09/0.4.4.26.html</id>
+    <link type="text/html" rel="alternate" href="http://domain//2016/12/09/0.4.4.26.html"/>
+    <title>0.4.4.26</title>
+    <updated>2016-12-09T00:00:00+01:00</updated>
+    <author>
+      <name>Author</name>
+      <uri>http://domain/</uri>
+    </author>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;I|[Physics] improved cycle;&lt;/li&gt;
+&lt;li&gt;F|[Menu] Solved date/time issue &lt;a href=&quot;https://github.com/gRally/dev/issues/360&quot;&gt;#360&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;F|[Physics] Now is stopped! &lt;a href=&quot;https://github.com/gRally/dev/issues/364&quot;&gt;#364&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;A|If you add an option to &lt;strong&gt;gRally.ini&lt;/strong&gt; config file:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&quot;language-ini&quot;&gt;[sim]
+debugMode = true
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;the sim starts without the physics and you see where the car is loaded etc... pressing &lt;em&gt;D&lt;/em&gt; key the sim starts&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://domain//2016/12/08/0.4.4.25.html</id>
+    <link type="text/html" rel="alternate" href="http://domain//2016/12/08/0.4.4.25.html"/>
+    <title>0.4.4.25</title>
+    <updated>2016-12-08T00:00:00+01:00</updated>
+    <author>
+      <name>Author</name>
+      <uri>http://domain/</uri>
+    </author>
+    <content type="html">&lt;p&gt;I|[Physics] configurable cycle from normal and MultiThreaded;&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://domain//2016/12/06/0.4.4.24.html</id>
+    <link type="text/html" rel="alternate" href="http://domain//2016/12/06/0.4.4.24.html"/>
+    <title>0.4.4.24</title>
+    <updated>2016-12-06T00:00:00+01:00</updated>
+    <author>
+      <name>Author</name>
+      <uri>http://domain/</uri>
+    </author>
+    <content type="html">&lt;p&gt;I|[Physics] improved cycle;
+I|Menu management &lt;a href=&quot;https://github.com/gRally/dev/issues/343&quot;&gt;#343&lt;/a&gt;;
+F|Screenshot key &lt;em&gt;K&lt;/em&gt; &lt;a href=&quot;https://github.com/gRally/dev/issues/362&quot;&gt;#362&lt;/a&gt;;
+F|[Physics] collisions during replay &lt;a href=&quot;https://github.com/gRally/dev/issues/361&quot;&gt;#361&lt;/a&gt;;&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://domain//2016/12/04/0.4.4.23.html</id>
+    <link type="text/html" rel="alternate" href="http://domain//2016/12/04/0.4.4.23.html"/>
+    <title>0.4.4.23</title>
+    <updated>2016-12-04T00:00:00+01:00</updated>
+    <author>
+      <name>Author</name>
+      <uri>http://domain/</uri>
+    </author>
+    <content type="html">&lt;p&gt;A|Unity 5.5 support&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://domain//2016/02/21/0.3.18.6.html</id>
+    <link type="text/html" rel="alternate" href="http://domain//2016/02/21/0.3.18.6.html"/>
+    <title>0.3.18.6</title>
+    <updated>2016-02-21T00:00:00+01:00</updated>
+    <author>
+      <name>Author</name>
+      <uri>http://domain/</uri>
+    </author>
+    <content type="html">&lt;p&gt;A|Split times shown ingame.
+E|Changed codriver audio pacenotes.
+A|English codriver.
+A|Codriver choice in menu. &lt;img src=&quot;http://i.imgur.com/E3K4EqJ.png&quot; alt=&quot;Codriver&quot; /&gt;
+E|Pacenotes system.
+I|Set engine volume at 0.5 and codriver volume at 1.0 to hear better the pacenotes.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://domain//2016/02/12/0.3.17.6.html</id>
+    <link type="text/html" rel="alternate" href="http://domain//2016/02/12/0.3.17.6.html"/>
+    <title>0.3.17.6</title>
+    <updated>2016-02-12T00:00:00+01:00</updated>
+    <author>
+      <name>Author</name>
+      <uri>http://domain/</uri>
+    </author>
+    <content type="html">&lt;p&gt;F|[Graphics] Replay not show car and track.
+F|[Graphics] Recce not show car and track.
+A|New console command: &lt;strong&gt;PATH_DISABLE&lt;/strong&gt; and &lt;strong&gt;PATH_ENABLE&lt;/strong&gt;, to disable and re-enable the path calculation &lt;em&gt;(the function that check where is the car, is necessary to detect the distance driven and the pacenotes playing)&lt;/em&gt;.
+A|New console command: &lt;strong&gt;STATS&lt;/strong&gt; that shows the current fps stats and save them into &lt;em&gt;output_log.txt&lt;/em&gt; file.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://domain//2007/01/03/mysecondpost.html</id>
+    <link type="text/html" rel="alternate" href="http://domain//2007/01/03/mysecondpost.html"/>
+    <title>My Second Post</title>
+    <updated>2007-01-03T00:00:00+01:00</updated>
+    <author>
+      <name>Author</name>
+      <uri>http://domain/</uri>
+    </author>
+    <content type="html">&lt;h2&gt;Hello world...&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-cs&quot;&gt;static void Main() 
+{
+    Console.WriteLine(&amp;quot;Hello World!&amp;quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is my second post on the site!&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://domain//2007/01/02/myfirstpost.html</id>
+    <link type="text/html" rel="alternate" href="http://domain//2007/01/02/myfirstpost.html"/>
+    <title>My First Post</title>
+    <updated>2007-01-02T00:00:00+01:00</updated>
+    <author>
+      <name>Author</name>
+      <uri>http://domain/</uri>
+    </author>
+    <content type="html">&lt;h2&gt;Hello world...&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-cs&quot;&gt;static void Main() 
+{
+    Console.WriteLine(&amp;quot;Hello World!&amp;quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is my first post on the site!&lt;/p&gt;</content>
+  </entry>
+  
+</feed>
