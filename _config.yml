@@ -1,33 +1,43 @@
-# Dependencies
-markdown:         kramdown
-pygments:         true
+# Site settings
+title: Jekyll-Uno
+description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+url: 'http://joshgerdes.com/jekyll-uno'
+baseurl: '/jekyll-uno'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
 
-# Permalinks
-permalink:        pretty
-
-# Setup
-title:            gRally
-description:      all terrain simulator
-tagline:          all terrain simulator
-url:              http://grally.github.io
-domain_name:      http://dev.grally.net
-paginate:         6
-baseurl:          /
 author:
-  name:           ghiboz
-  url:            https://twitter.com/ghiboz
+  name: 'Josh Gerdes'
+  email: josh@joshgerdes.com
+  twitter_username: joshgerdes
+  facebook_username: joshgerdes
+  github_username:  joshgerdes
+  linkedin_username:  joshgerdes
 
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/
-  wiki:           https://github.com/gRally/gRally.github.io/wiki
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
-# collections
-collections:
-  docs:
-    output: true
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
 
-#paginate
-#paginator:
-#  posts:          6
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

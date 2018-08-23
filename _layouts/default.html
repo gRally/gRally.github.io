@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
+<html>
   {% include head.html %}
 
-  <body class="theme-base-08 layout-reverse">
+  <body>
+    {% include header.html %}
 
-    {% include sidebar.html %}
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        {{ content }}
+      </div>
 
-    <div class="content container">
-      {{ content }}
-      {% include comments.html %}
+      {% include footer.html %}
     </div>
-
   </body>
 </html>
