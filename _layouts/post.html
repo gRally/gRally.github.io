@@ -30,6 +30,11 @@ layout: default
   <div align="left">{% include share.html %}</div>
   </br>
 
+  {% for post in site.posts %}
+    {% if post.url != page.url %}
+      {% for tag in page.tags %}
+        {% if post.tags contains tag %}
+
   <div class="related">
     <h2>Related Posts</h2>
     <ul class="related-posts">
@@ -51,6 +56,13 @@ layout: default
       {% endfor %}
     </ul>
   </div>
+
+        {% endif %}
+      {% endfor %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
   
   {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
 </article>
