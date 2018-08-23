@@ -3,6 +3,7 @@ title: gRally dev corner
 description: read the facts under the hood of grally.net
 url: 'https://grally.github.io/'
 baseurl: ''
+disqus_shortname: 'grallygithubio'
 # google_analytics: 'UA-XXXXXX-X'
 
 author:
@@ -21,8 +22,10 @@ defaults:
 # Build settings
 destination: _site
 paginate: 10
-permalink: /:year/:title/
+# permalink: /:year/:title/
+permalink: pretty
 markdown: kramdown
+pygments: true
 highlighter: rouge
 
 sass:
