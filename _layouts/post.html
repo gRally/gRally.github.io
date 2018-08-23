@@ -24,9 +24,11 @@ layout: default
   <div align="right">by {{ page.author }}</div>
     {% endif %}
   {% endif %}
+  </br>
 
   <!-- Share links section -->
-  <div align="right">{% include share.html %}</div>
+  <div align="left">{% include share.html %}</div>
+  </br>
 
   {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
 </article>
