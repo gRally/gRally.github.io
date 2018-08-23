@@ -14,7 +14,10 @@ layout: default
 
   <section class="post">
     {{ content }}
-    {% if page.author %}
+  </section>
+
+  <!-- author section -->
+  {% if page.author %}
     {% if page.author-twitter %}
   <div align="right">by <a class="fa fa-twitter" href="{{ page.author-twitter }}">{{ page.author }}</a></div>
     {% else %}
@@ -22,7 +25,9 @@ layout: default
     {% endif %}
   {% endif %}
 
-  </section>
+  <!-- Share links section -->
+  <div align="right">{% include share.html %}</div>
+
   {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
 </article>
 {% if page.comments != false %}{% include disqus.html %}{% endif %}
