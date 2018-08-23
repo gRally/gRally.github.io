@@ -1,15 +1,14 @@
 # Site settings
-title: Tamay Eser Uysal
-description: Road Cycling Fan, Passsionate About Coding,Coffee Lover
-url: 'https://puskuruk.github.io/'
+title: gRally dev corner
+description: read the facts under the hood of grally.net
+url: 'https://grally.github.io/'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 
 author:
-  name: 'Tamay Eser Uysal'
-  email: tamayeseruysal@gmail.com
-  twitter_username: badem_bagetli
-  github_username:  puskuruk
+  name: 'ghiboz'
+  twitter_username: grallysim
+  github_username:  ghiboz
   
 defaults:
   -
