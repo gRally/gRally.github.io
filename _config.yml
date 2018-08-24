@@ -79,7 +79,7 @@ naver_site_verification  :
 twitter:
   username               : "grallysim"
 facebook:
-  username               :
+  username               : "grallysim"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -263,7 +263,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: wide
       author_profile: true
       read_time: true
       comments: true
