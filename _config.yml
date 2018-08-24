@@ -19,11 +19,11 @@ locale                   : "en-US"
 title                    : "Behind the stages"
 title_separator          : "~"
 name                     : "gRally"
-description              : "An amazing website."
+description              : "All terrain simulator."
 url                      : "https://grally.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "grally/grally.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/gRallyLogo_512_alt4.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -102,8 +102,8 @@ analytics:
 author:
   name             : "gRally"
   avatar           : "/assets/images/gRallyLogo_512_alt4.png"
-  bio              : "All terrain simulator."
-  location         : "into the stages"
+  bio              : "development diary of gRally"
+  location         : "Italy, near the mountains"
   email            :
   uri              : "https://grally.net"
   home             : # null (default), "absolute or relative url to link to author home"
