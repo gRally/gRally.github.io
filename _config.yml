@@ -12,24 +12,24 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "grally" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Behind the stages"
-title_separator          : "~"
-name                     : "gRally"
-description              : "All terrain simulator."
-url                      : "https://grally.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title                    : "Site Title"
+title_separator          : "-"
+name                     : "Your Name"
+description              : "An amazing website."
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "grally/grally.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/gRallyLogo_512_alt4.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : "grallygithubio" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -58,8 +58,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -77,12 +77,12 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "grallysim"
+  username               :
 facebook:
-  username               : "grallysim"
+  username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/gRallyLogo_512_alt4.png" # Open Graph/Twitter default site image
+og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -100,24 +100,24 @@ analytics:
 
 # Site Author
 author:
-  name             : "gRally"
-  avatar           : "/assets/images/gRallyLogo_512_alt4.png"
-  bio              : "development diary of gRally"
-  location         : "Italy, near the mountains"
+  name             : "Your Name"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an amazing person."
+  location         : "Somewhere"
   email            :
-  uri              : "https://grally.net"
+  uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "grallysim"
+  facebook         :
   foursquare       :
-  github           : "grally"
+  github           :
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        : "grallyshots"
+  instagram        :
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
@@ -125,11 +125,11 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "grallysim"
+  twitter          :
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://www.youtube.com/user/gRallySim"
+  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
 
 # Reading Files
@@ -197,9 +197,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 12 # amount of posts to show
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Europe/Rome # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -266,8 +266,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: # true
       share: true
       related: true
-
-theme: jekyll-theme-cayman
