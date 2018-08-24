@@ -10,7 +10,9 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
-  background-image: url("/assets/images/cover.jpg");
+  background-image: url("/assets/images/hp_new.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
 
   &__inner-wrap {
     @include clearfix;
