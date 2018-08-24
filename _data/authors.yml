@@ -1,0 +1,17 @@
+# Authors
+
+ghiboz:
+  name        : "ghiboz"
+  uri         : "https://ghiboz.com"
+  bio         : "You're here for a good time, not a long time."
+  avatar      : "/assets/images/ghiboz.jpg"
+  twitter     : "ghiboz"
+  google_plus : "ghiboz"
+
+Cornelius Fiddlebone:
+  name        : "Cornelius Fiddlebone"
+  email       : "cornelius@thewhip.com"
+  bio         : "I ordered what?"
+  avatar      : "/assets/images/bio-photo.jpg"
+  twitter     : "rhymeswithsackit"
+  google_plus : "CorneliusFiddlebone"
