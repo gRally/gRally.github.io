@@ -10,7 +10,7 @@ tags:
 author: ghiboz
 excerpt: "turbo... the new era engine"
 classes: wide
-permalink: /404.html
+permalink: /turbo.html
 ---
 
 :warning: remove `permalink`
