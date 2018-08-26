@@ -10,6 +10,7 @@ tags:
 author: ghiboz
 excerpt: "turbo... the new era engine"
 classes: wide
+permalink: /404.html
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non sem sit amet mi scelerisque ullamcorper sit amet in libero. Vestibulum tristique arcu sed leo dictum molestie. Morbi id mattis dolor. Duis felis felis, tempus ac lacus vel, pharetra vestibulum massa. Suspendisse at ultrices nisi. Proin fermentum, odio id consectetur consectetur, tellus mauris rutrum nisl, iaculis sagittis nisl magna at ligula. Proin iaculis libero sed libero ornare tincidunt. Proin mauris felis, tincidunt ac sem eu, tincidunt convallis sem. Ut pulvinar consectetur lorem, sit amet facilisis nisi venenatis eget. Donec condimentum sapien vel lorem ornare, id vehicula risus aliquet.
