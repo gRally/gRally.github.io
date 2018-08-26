@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "blog"
+    url: /archive/
   - title: "gRally"
     url: https://grally.net
   - title: "Steam"
