@@ -64,8 +64,12 @@
   border-radius: $border-radius;
   overflow: hidden;
 
+  height: 110px;
+
   img {
     width: 100%;
+    position: absolute;
+    bottom: 0px;
   }
 }
 
