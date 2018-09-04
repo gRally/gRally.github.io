@@ -14,7 +14,7 @@ toc: true
 toc_label: "What's next?"
 toc_icon: "user-secret"
 toc_sticky: true
-permalink: /roadmap.html
+permalink: /roadmap/
 ---
 
 ## Near term
