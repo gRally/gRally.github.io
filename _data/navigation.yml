@@ -2,7 +2,7 @@
 main:
   - title: "blog"
     url: /archive/
-  - title: "gRally"
-    url: https://grally.net
+  - title: "roadmap"
+    url: /roadmap/
   - title: "Steam"
     url: https://store.steampowered.com/app/605760/gRally

@@ -10,6 +10,7 @@
 {% else %}
   <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
   <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+  <script src="{{ '/assets/js/progressbar/progressbar.js' | relative_url }}"></script>
 {% endif %}
 
 {% if site.search == true or page.layout == "search" %}
@@ -26,3 +27,62 @@
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
+
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
+<script>
+function CreateBars(ar, duration)
+{
+    var containerName = 'container' + duration.toString();
+    var cont = document.getElementById(containerName);
+    
+    //alert(containerName);
+    //alert(cont);
+
+    if(cont == null)
+    {
+        return;
+    }
+    ar.push(new ProgressBar.SemiCircle(cont, {
+    strokeWidth: 6,
+    color: '#ED6A5A',
+    trailColor: '#eee',
+    trailWidth: 1,
+    easing: 'easeInOut',
+    duration: 1400,
+    svgStyle: null,
+    text: {
+        value: '',
+        alignToBottom: false
+    },
+    from: {color: '#ED6A5A'},
+    to: {color: '#6EFF22'},
+    // Set default step function for all animate calls
+    step: (state, bar) => {
+        bar.path.setAttribute('stroke', state.color);
+        var value = Math.round(bar.value() * 100);
+        if (value === 0)
+        {
+            bar.setText('');
+        }
+        else
+        {
+            bar.setText(value);
+        }
+
+        bar.text.style.color = state.color;
+    }
+  }));
+  //alert(ar.length);
+  ar[ar.length - 1].text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+  ar[ar.length - 1].text.style.fontSize = '1rem';
+  ar[ar.length - 1].animate(duration / 100);
+}
+
+var a = new Array();
+
+for (i = 0; i < 100; i += 5)
+{
+    CreateBars(a, i);
+}
+
+</script>

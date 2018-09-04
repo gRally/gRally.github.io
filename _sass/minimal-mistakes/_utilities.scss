@@ -522,3 +522,21 @@ a.reversefootnote {
     position: static;
   }
 }
+
+/*
+    gRally stuff
+    ======================================================================== */
+
+  .gRally-progress{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+
+    @include breakpoint($small) {
+      float: left;
+      margin-right: 1em;
+    }
+  }
