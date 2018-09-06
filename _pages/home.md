@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_image: /assets/images/home.jpg
   cta_label: "<i class='fab fa-steam'></i> Install Now"
   cta_url: "https://store.steampowered.com/app/605760/gRally/"
   caption:

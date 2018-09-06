@@ -1,8 +1,8 @@
 ---
 title: "Roadmap"
 header:
-  teaser: "http://www.xlerate.net/wp-content/uploads/2018/03/08_RNW.jpg"
-  overlay_image: "http://www.xlerate.net/wp-content/uploads/2018/03/08_RNW.jpg"
+  teaser: "/assets/images/stage02.jpg"
+  overlay_image: "/assets/images/stage02.jpg"
   # overlay_filter: 0.75
   overlay_filter: rgba(226, 38, 52, 0.5)
   # overlay_color: "#e22634"
