@@ -50,6 +50,10 @@ rim)_.
 We're working on a completely new car, inspired _(as usual)_ to 70's great rally car revisited to the
 new era shape: this car will be 4wd with a turbo engine, to let the people to play with the new engine physics.
 
+### Baitoni-Bondone
+<div id="container25" class="gRally-progress"></div>
+Our first stage, now in refactoring mode after some big changes on the physics engine and trees engine.
+
 ### Unity 2018
 <div id="container15" class="gRally-progress"></div>
 We want to be aligned with the Unity releases and this step should improve the framerate and the graphics.

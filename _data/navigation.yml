@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "blog"
+  - title: "Blog"
     url: /archive/
-  - title: "roadmap"
+  - title: "Roadmap"
     url: /roadmap/
   - title: "Steam"
     url: https://store.steampowered.com/app/605760/gRally
