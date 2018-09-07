@@ -61,7 +61,7 @@ We want to be aligned with the Unity releases and this step should improve the f
 
 
 ## Long term
-The `Long term` stuff are things that we wish do but we can't do when
+The `Long term` stuff are things that we wish do but we don't know when
 {: .notice--danger}
 
 ### Live rally championship
