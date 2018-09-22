@@ -54,6 +54,11 @@ rim)_.
 We're working on a completely new car, inspired _(as usual)_ to 70's great rally car revisited to the
 new era shape: this car will be 4wd with a turbo engine, to let the people to play with the new engine physics.
 
+### UI for VR
+<div id="container30" class="gRally-progress"></div>
+At the moment gRally is shipped with a working VR management, but the VR is basic.
+In this step with the VR you can interact with the UI
+
 ### Baitoni-Bondone
 <div id="container25" class="gRally-progress"></div>
 Our first stage, now in refactoring mode after some big changes on the physics engine and trees engine.
