@@ -22,14 +22,14 @@ The `Near term` stuff are things that we're working on or we plan to do shortly
 
 ### Ryggesbro
 <div id="container90" class="gRally-progress"></div>
-A new gravel stage set in a swedish forest :evergreen_tree: built whith the [Moose](https://holymooses.com/PRL/blog.php) procedural stage creator.
+A new gravel stage set in a swedish forest :evergreen_tree: built with the help of [Moose](https://holymooses.com/PRL/blog.php) procedural stage creator.
 
 ### Controllers configuration
 <div id="container85" class="gRally-progress"></div>
 This is a tricky stuff: we've completely rewrote the input management to make gRally more versatile to
 every controller the user has;
-Unfortunately this thing took us more time than expected: but we're on the right way to fix definitively
-the controller issues.
+unfortunately this took us more time than expected: but we're on the right way to fix definitively
+the controller issues. <br>We encourage everyone to report bugs with controller, it's the only way for us to "test" the different hardware.
 
 ### Codriver Improvements
 <div id="container80" class="gRally-progress"></div>
@@ -45,13 +45,12 @@ With the latest [gCarEditor](https://github.com/gRally/gCarEditor) release we st
 The `Mid term` stuff are things that we're plan to do but not immediately
 {: .notice--warning}
 
-### Dynamic tyres
+### Dynamic tyre models
 <div id="container70" class="gRally-progress"></div>
 This is a cool thing: with this feature the 3d tyre and texturizing is done automatically: the user will be
 able to choose a different rim, different rim color, different caliper color and the core do everything.
 Finally we'll have a different tyre shape when we choose the tyre for the stage.
-The modder are also able to make a custom rim for the model _(for example if the car should have a particular
-rim)_.
+There is also the opportunity to create a custom rim if the car needs it.
 
 ### Rain
 <div id="container65" class="gRally-progress"></div>
@@ -60,17 +59,16 @@ with the aquaplanning and different damp/wet zones.
 
 ### GH-40
 <div id="container55" class="gRally-progress"></div>
-We're working on a completely new car, inspired _(as usual)_ to 70's great rally car revisited to the
-new era shape: this car will be 4wd with a turbo engine, to let the people to play with the new engine physics.
+We're working on a completely new car, a modern design inspired _(as usual)_ to a 70's great rally car: this car will be 4wd with a turbo engine, to let the people to play with the new physicsengine.
 
 ### UI for VR
 <div id="container30" class="gRally-progress"></div>
 At the moment gRally is shipped with a working VR management, but the VR is basic.
-In this step with the VR you can interact with the UI
+With this new step you can interact with the UI
 
 ### Baitoni-Bondone
 <div id="container25" class="gRally-progress"></div>
-Our first stage, now in refactoring mode after some big changes on the physics engine and trees engine.
+The stage where gRally runs its first kilometers. It's entered now the refreshing mode due to the sim and graphic engine developments.
 
 ### Unity 2018
 <div id="container20" class="gRally-progress"></div>
