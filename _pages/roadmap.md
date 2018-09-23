@@ -29,7 +29,7 @@ A new gravel stage set in a swedish forest :evergreen_tree: built with the help 
 This is a tricky stuff: we've completely rewrote the input management to make gRally more versatile to
 every controller the user has;
 unfortunately this took us more time than expected: but we're on the right way to fix definitively
-the controller issues. <br>We encourage everyone to report bugs with controller, it's the only way for us to "test" the different hardware.
+the controller issues. <br>We encourage everyone to report controller bugs, it's the only way for us to "test" the different hardware.
 
 ### Codriver Improvements
 <div id="container80" class="gRally-progress"></div>
