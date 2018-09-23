@@ -35,6 +35,10 @@ the controller issues.
 <div id="container80" class="gRally-progress"></div>
 We work on a improved codriver `AI` that follow better the speed and the driving style of the driver, avoiding to call the notes lately and in a wrong time.
 
+### New Engine physics
+<div id="container75" class="gRally-progress"></div>
+With the latest [gCarEditor](https://github.com/gRally/gCarEditor) release we started to code the Turbo and 4x4.. we're working to make it 'definitive'
+
 
 
 ## Mid term
@@ -49,8 +53,13 @@ Finally we'll have a different tyre shape when we choose the tyre for the stage.
 The modder are also able to make a custom rim for the model _(for example if the car should have a particular
 rim)_.
 
+### Rain
+<div id="container65" class="gRally-progress"></div>
+In the pre-steam release we worked on the rain feature, but we preferred to release it when is 100% done, 
+with the aquaplanning and different damp/wet zones.
+
 ### GH-40
-<div id="container50" class="gRally-progress"></div>
+<div id="container55" class="gRally-progress"></div>
 We're working on a completely new car, inspired _(as usual)_ to 70's great rally car revisited to the
 new era shape: this car will be 4wd with a turbo engine, to let the people to play with the new engine physics.
 
