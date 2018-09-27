@@ -20,6 +20,10 @@ permalink: /roadmap/
 The `Near term` stuff are things that we're working on or we plan to do shortly
 {: .notice--success}
 
+### Codriver Improvements
+<div id="container95" class="gRally-progress"></div>
+We work on a improved codriver `AI` that follow better the speed and the driving style of the driver, avoiding to call the notes lately and in a wrong time.
+
 ### Ryggesbro
 <div id="container90" class="gRally-progress"></div>
 A new gravel stage set in a swedish forest :evergreen_tree: built with the help of [Moose](https://holymooses.com/PRL/blog.php) procedural stage creator.
@@ -31,9 +35,10 @@ every controller the user has;
 unfortunately this took us more time than expected: but we're on the right way to fix definitively
 the controller issues. <br>We encourage everyone to report controller bugs, it's the only way for us to "test" the different hardware.
 
-### Codriver Improvements
+### Steam Workshop
 <div id="container80" class="gRally-progress"></div>
-We work on a improved codriver `AI` that follow better the speed and the driving style of the driver, avoiding to call the notes lately and in a wrong time.
+After this, you're able to publish your mods directly with Steam using [gModsCreator](https://github.com/gRally/dev/wiki/Mods#mods-creation)
+In addition to the _classic_ mods like cars, stages and codrivers, we'll add also a **livery** mods section to share your creations!
 
 ### New Engine physics
 <div id="container75" class="gRally-progress"></div>
