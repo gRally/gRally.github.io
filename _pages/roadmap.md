@@ -67,20 +67,20 @@ with the aquaplanning and different damp/wet zones.
 We're working on a completely new car, a modern design inspired _(as usual)_ to a 70's great rally car: this car will be 4wd with a turbo engine, to let the people to play with the new physicsengine.
 
 ### UI for VR
-<div id="container30" class="gRally-progress"></div>
+<div id="container35" class="gRally-progress"></div>
 At the moment gRally is shipped with a working VR management, but the VR is basic.
 With this new step you can interact with the UI
 
 ### Baitoni-Bondone
-<div id="container25" class="gRally-progress"></div>
+<div id="container30" class="gRally-progress"></div>
 The stage where gRally runs its first kilometers. It's entered now the refreshing mode due to the sim and graphic engine developments.
 
 ### Unity 2018
-<div id="container20" class="gRally-progress"></div>
+<div id="container25" class="gRally-progress"></div>
 We want to be aligned with the Unity releases and this step should improve the framerate and the graphics.
 
 ### FMOD
-<div id="container15" class="gRally-progress"></div>
+<div id="container20" class="gRally-progress"></div>
 We'll use [FMOD](https://www.fmod.com/) to manage all the sounds in game, this will be a great step for the
 car modders, to create great audio behaviour especially for the car engine.
 
@@ -89,6 +89,11 @@ car modders, to create great audio behaviour especially for the car engine.
 ## Long term
 The `Long term` stuff are things that we wish do but we don't know when
 {: .notice--danger}
+
+### Suface usage
+<div id="container15" class="gRally-progress"></div>
+gRally will manage the surface usage in 2 ways, graphics and physics: this will be useful for live rallies
+where the grip and the behaviour of the car into certain stage depends by the starting road position.
 
 ### Live rally championship
 <div id="container10" class="gRally-progress"></div>
