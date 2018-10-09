@@ -20,10 +20,6 @@ permalink: /roadmap/
 The `Near term` stuff are things that we're working on or we plan to do shortly
 {: .notice--success}
 
-### Codriver Improvements
-<div id="container95" class="gRally-progress"></div>
-We work on a improved codriver `AI` that follow better the speed and the driving style of the driver, avoiding to call the notes lately and in a wrong time.
-
 ### Ryggesbro
 <div id="container90" class="gRally-progress"></div>
 A new gravel stage set in a swedish forest :evergreen_tree: built with the help of [Moose](https://holymooses.com/PRL/blog.php) procedural stage creator.
