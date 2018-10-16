@@ -58,6 +58,11 @@ There is also the opportunity to create a custom rim if the car needs it.
 In the pre-steam release we worked on the rain feature, but we preferred to release it when is 100% done, 
 with the aquaplanning and different damp/wet zones.
 
+### Game server
+<div id="container60" class="gRally-progress"></div>
+We decided to improve the online side using Steam to manage the game servers, so each driver will be
+able to create and manage online rallies and championships.
+
 ### GH-40
 <div id="container55" class="gRally-progress"></div>
 We're working on a completely new car, a modern design inspired _(as usual)_ to a 70's great rally car: this car will be 4wd with a turbo engine, to let the people to play with the new physicsengine.
