@@ -101,3 +101,8 @@ where the grip and the behaviour of the car into certain stage depends by the st
 The main goal of gRally is the online rallies and championships, to recreate the incredible fun of the
 WIRC rally championships on the past years: to complete this great milestone the way is long: we need
 more cars and stages and some live test rallies to make the server stuff unbreakable.
+
+### Rigged driver and codriver
+<div id="container5" class="gRally-progress"></div>
+At the moment the driver and the codriver are static and must be included in the car model..
+Next step is make a rigged driver that is in the engine.
