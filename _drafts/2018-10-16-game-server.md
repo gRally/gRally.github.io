@@ -27,8 +27,7 @@ Non è un compito facile, in quanto le informazioni e la documentazione a dispos
 
 Dopo diversi tentativi sbagliati, sono finalmente riuscito ad ottenere degli ottimi risultati. Per il momento mi sono concentrato sulla creazione del programma server (al momento sviluppato in c#, quindi il server sarà disponibile solo per windows, ma spero di convertirlo per un servizio linux in modo da poterlo usare sui server vps più comuni).
 
-![webserver](/assets/images/webserver.png){: .align-left}Al momento il server si occupa di creare il rally e di permettere ai client di collegarsi, leggendo le informazioni quali vetture utilizzabili, roadbook,
-ecc...e permette di leggere le informazioni tramite un webserver in formato json
+![webserver](/assets/images/webserver.png){: .align-left}Al momento il server si occupa di creare il rally leggendo le informazioni quali vetture utilizzabili, roadbook, ecc. , permettendo ai client di collegarsi. Inoltre mette a disposizione delle funzioni REST per ottenere informazioni sullo stato del rally, esportate in formato JSON.
 
 Il passaggio successivo sarà quello di effettuare dei test andando a sostituire il server attuale
 (solamente web) con questo nuovo server.
@@ -36,11 +35,6 @@ Il passaggio successivo sarà quello di effettuare dei test andando a sostituire
 Questo non è solo un aggiornamento relativo al nostro server 'ufficiale', ma permetterà ai piloti
 di poter creare rally online a proprio piacimento.
 
-Un'altra cosa che sto studiando molto interessante è il peer 2 peer networking, questo permetterà di
-creare un collegamento [Steam's NAT-traversal and relay servers](https://partner.steamgames.com/doc/features/multiplayer/networking) tra il singoli client.. in modo
-da poter eventualmente gestire dei rally live come i veri rallies, partendo uno dopo l'altro, vedendo
-i piloti gareggiare prima di te.
+Un'altra cosa molto interessante che sto studiando è il peer 2 peer networking; questo permetterà di creare un collegamento [Steam's NAT-traversal and relay servers](https://partner.steamgames.com/doc/features/multiplayer/networking) tra i singoli client, in modo da poter eventualmente gestire dei rally live come i veri rallies, partendo uno dopo l'altro, vedendo i piloti gareggiare prima di te collegandosi direttamente al loro client.
 
-Ci sono ancora tanti punti oscuri, come la connessione al server direttamente dalla sezione 'servers'
-del client steam, l'anticheat, convertire il codice per linux _(se avete delle idee fatevi avanti!)_,
-ma penso di essere sulla strada giusta, per permettere un'esperienza rallistica live come mai prima!
+Ci sono ancora tanti punti oscuri, come la connessione al server direttamente dalla sezione 'servers' del client steam, l'anticheat, convertire il codice per linux (se avete delle idee fatevi avanti!) ma penso di essere sulla strada giusta per permettere un'esperienza rallistica live come mai prima!
