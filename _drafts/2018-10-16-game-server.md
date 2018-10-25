@@ -27,7 +27,7 @@ Non è un compito facile, in quanto le informazioni e la documentazione a dispos
 
 Dopo diversi tentativi sbagliati, sono finalmente riuscito ad ottenere degli ottimi risultati. Per il momento mi sono concentrato sulla creazione del programma server (al momento sviluppato in c#, quindi il server sarà disponibile solo per windows, ma spero di convertirlo per un servizio linux in modo da poterlo usare sui server vps più comuni).
 
-![webserver](/assets/images/webserver.png){: .align-left}Al momento il server si occupa di creare il rally leggendo le informazioni quali vetture utilizzabili, roadbook, ecc. , permettendo ai client di collegarsi. Inoltre mette a disposizione delle funzioni REST per ottenere informazioni sullo stato del rally, esportate in formato JSON.
+![webserver](/assets/images/webserver.png){: .align-left}Al momento il server si occupa di creare il rally leggendo le informazioni quali vetture utilizzabili, roadbook, ecc. , permettendo ai client di collegarsi. Inoltre mette a disposizione delle funzioni REST per ottenere informazioni sullo stato del rally in corso, esportate in formato JSON.
 
 Il passaggio successivo sarà quello di effettuare dei test andando a sostituire il server attuale
 (solamente web) con questo nuovo server.
