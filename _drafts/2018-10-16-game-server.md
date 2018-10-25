@@ -23,13 +23,9 @@ comments: false
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Gli ultimi giorni li ho passati a studiare la gestione dei game server di Steam.
-Non è un processo semplice, in quanto le informazioni e la documentazione a disposizione non sono
-così semplici e immediati.
+Non è un compito facile, in quanto le informazioni e la documentazione a disposizione non sono così semplici e immediati.
 
-Dopo diversi tentativi sbagliati, sono finalmente riuscito ad ottenere degli ottimi risultati.
-Per il momento mi sono concentrato sulla creazione del programma server (al momento sviluppato in
-c#, quindi il server disponibile per windows, ma spero di convertirlo per un servizio linux, da
-poterlo usare sui server vps più comuni).
+Dopo diversi tentativi sbagliati, sono finalmente riuscito ad ottenere degli ottimi risultati. Per il momento mi sono concentrato sulla creazione del programma server (al momento sviluppato in c#, quindi il server sarà disponibile solo per windows, ma spero di convertirlo per un servizio linux in modo da poterlo usare sui server vps più comuni).
 
 ![webserver](/assets/images/webserver.png){: .align-left}Al momento il server si occupa di creare il rally e di permettere ai client di collegarsi, leggendo le informazioni quali vetture utilizzabili, roadbook,
 ecc...e permette di leggere le informazioni tramite un webserver in formato json
