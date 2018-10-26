@@ -21,8 +21,13 @@ The `Near term` stuff are things that we're working on or we plan to do shortly
 {: .notice--success}
 
 ### Ryggesbro
-<div id="container90" class="gRally-progress"></div>
+<div id="container95" class="gRally-progress"></div>
 A new gravel stage set in a swedish forest :evergreen_tree: built with the help of [Moose](https://holymooses.com/PRL/blog.php) procedural stage creator.
+
+### Steam Workshop
+<div id="container90" class="gRally-progress"></div>
+After this, you're able to publish your mods directly with Steam using [gModsCreator](https://github.com/gRally/dev/wiki/Mods#mods-creation)
+In addition to the _classic_ mods like cars, stages and codrivers, we'll add also a **livery** mods section to share your creations!
 
 ### Controllers configuration
 <div id="container85" class="gRally-progress"></div>
@@ -30,11 +35,6 @@ This is a tricky stuff: we've completely rewrote the input management to make gR
 every controller the user has;
 unfortunately this took us more time than expected: but we're on the right way to fix definitively
 the controller issues. <br>We encourage everyone to report controller bugs, it's the only way for us to "test" the different hardware.
-
-### Steam Workshop
-<div id="container80" class="gRally-progress"></div>
-After this, you're able to publish your mods directly with Steam using [gModsCreator](https://github.com/gRally/dev/wiki/Mods#mods-creation)
-In addition to the _classic_ mods like cars, stages and codrivers, we'll add also a **livery** mods section to share your creations!
 
 ### New Engine physics
 <div id="container75" class="gRally-progress"></div>
@@ -67,6 +67,10 @@ able to create and manage online rallies and championships.
 <div id="container55" class="gRally-progress"></div>
 We're working on a completely new car, a modern design inspired _(as usual)_ to a 70's great rally car: this car will be 4wd with a turbo engine, to let the people to play with the new physicsengine.
 
+### Unity 2018
+<div id="container45" class="gRally-progress"></div>
+We want to be aligned with the Unity releases and this step should improve the framerate and the graphics.
+
 ### UI for VR
 <div id="container35" class="gRally-progress"></div>
 At the moment gRally is shipped with a working VR management, but the VR is basic.
@@ -75,10 +79,6 @@ With this new step you can interact with the UI
 ### Baitoni-Bondone
 <div id="container30" class="gRally-progress"></div>
 The stage where gRally runs its first kilometers. It's entered now the refreshing mode due to the sim and graphic engine developments.
-
-### Unity 2018
-<div id="container25" class="gRally-progress"></div>
-We want to be aligned with the Unity releases and this step should improve the framerate and the graphics.
 
 ### FMOD
 <div id="container20" class="gRally-progress"></div>
