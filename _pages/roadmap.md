@@ -67,6 +67,11 @@ able to create and manage online rallies and championships.
 <div id="container55" class="gRally-progress"></div>
 We're working on a completely new car, a modern design inspired _(as usual)_ to a 70's great rally car: this car will be 4wd with a turbo engine, to let the people to play with the new physicsengine.
 
+### Surface usage
+<div id="container50" class="gRally-progress"></div>
+gRally will manage the surface usage in 2 ways, graphics and physics: this will be useful for live rallies
+where the grip and the behaviour of the car into certain stage depends by the starting road position.
+
 ### Unity 2018
 <div id="container45" class="gRally-progress"></div>
 We want to be aligned with the Unity releases and this step should improve the framerate and the graphics.
@@ -91,18 +96,13 @@ car modders, to create great audio behaviour especially for the car engine.
 The `Long term` stuff are things that we wish do but we don't know when
 {: .notice--danger}
 
-### Surface usage
-<div id="container15" class="gRally-progress"></div>
-gRally will manage the surface usage in 2 ways, graphics and physics: this will be useful for live rallies
-where the grip and the behaviour of the car into certain stage depends by the starting road position.
-
 ### Live rally championship
-<div id="container10" class="gRally-progress"></div>
+<div id="container15" class="gRally-progress"></div>
 The main goal of gRally is the online rallies and championships, to recreate the incredible fun of the
 WIRC rally championships on the past years: to complete this great milestone the way is long: we need
 more cars and stages and some live test rallies to make the server stuff unbreakable.
 
 ### Rigged driver and codriver
-<div id="container5" class="gRally-progress"></div>
+<div id="container10" class="gRally-progress"></div>
 At the moment the driver and the codriver are static and must be included in the car model..
 Next step is make a rigged driver that is in the engine.
