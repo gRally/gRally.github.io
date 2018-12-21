@@ -1,22 +1,24 @@
 ---
 layout: single
-title:  "Draft Post"
+title:  "Christmas gift"
 header:
-  teaser: "assets/images/unsplash-gallery-image-2-th.jpg"
+  teaser: "assets/images/SteamWorkshop.jpg"
 categories: 
-  - Jekyll
+  - content
 tags:
-  - edge case
+  - modding
+  - Steam Workshop
+  - gravel stage
 author: ghiboz
-excerpt: "Monocle ipsum dolor sit amet handsome pariatur aliqua, hub remarkable irure commodo classic deserunt bespoke. Sunt commodo signature, Swiss minim flat white Tsutaya excepteur artisanal et Nordic laborum joy ANA. Beams mollit exquisite Ginza efficient dolore qui Comme des Garçons Winkreative Lufthansa bulletin global. Iconic sed liveable duis. Mollit dolore eu laboris Comme des Garçons hub pintxos sed eiusmod tote bag Shinkansen nisi consectetur pariatur. Nordic international quis finest Baggu dolore, bureaux hub hand-crafted ut joy sint Airbus A380."
+excerpt: "Hello everyone, this blog post is just to say you "**Merry Christmas!!!**".... 
+.... .... Ehm ehm... **No!! No!! Stop, please stop!!!** 
+Sorry guys, Santa Claus hacked our account for his business, come back to ours"
 classes: wide
 ---
 
 Hello everyone, this blog post is just to say you "**Merry Christmas!!!**".... 
 
-.... 
-
-.... Ehm ehm... **No!! No!! Stop, please stop!!!** 
+.... .... Ehm ehm... **No!! No!! Stop, please stop!!!** 
 
 Sorry guys, Santa Claus hacked our account for his business, come back to ours.
 
@@ -26,10 +28,8 @@ It's an important step for us but, we think, it's important for everyone will ad
 
 Probably someone could ask "but modding is already available, why Steam Workshop is better?". 
 
-The reply is quite easy and most of Steam customers already know it: workshop has many advantages that simply we can't ignore.
+The reply is quite easy and most of Steam customers already know it: Workshop has many advantages that simply we can't ignore.
 Workshop features we like:
-
-Workshop can:
 
 - it helps mod creators to have a repository for their works
 - it has a smart upload system that avoid to upload, for every new mod release version, the full package
@@ -47,7 +47,7 @@ In short you'll choose what kind of mod you're publishing, the folder where this
 We hope that this tool will be helpful and we're open to every feedback you'll give us about it. 
 
 So, we have a **game**, an integrated **workshop**, what are we missing? A **mod** !!! 
-Is there a better occasion to release a new track than this? No !! 
+Is there a better occasion to release a new stage than this? No !! 
 
 So here we are, we present you Ryggesbro.
 
