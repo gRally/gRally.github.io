@@ -46,13 +46,14 @@ In short you'll choose what kind of mod you're publishing, the folder where this
 
 We hope that this tool will be helpful and we're open to every feedback you'll give us about it. 
 
-
 So, we have a **game**, an integrated **workshop**, what are we missing? A **mod** !!! 
 Is there a better occasion to release a new track than this? No !! 
 
 So here we are, we present you Ryggesbro.
-IMMAGINE DELLA PS 
-First of all we want to say a big "thank you!!" to Moose, the developer of a tool to create special stage in a procedural way. 
+
+![Ryggesbro01](/assets/images/Ryggesbro01.jpg)
+
+First of all we want to say a big "**Thank you!!!**" to TheHolyMoose, the developer of a tool to create special stage in a procedural way. 
 You can find every information on his website https://holymooses.com/PRL/index.php. 
 He shared with us some stages to make our testing and one of them is Ryggesbro. 
 He gave us 3d models of the stage and we built over shaders, textures, vegetation and some additional objects and stage modeling. 
@@ -62,7 +63,7 @@ Now, come back to Ryggesbro.
 It is a full gravel stage with a good mix of slow and fast sectors. 
 There are some special sectors we love cause they are good showcases of the rally driving experience : blind curves, full throttle and trust in your codriver :). 
 
-AGGIUNGERE UN'ALTRA IMMAGINE 
+![Ryggesbro02](/assets/images/Ryggesbro02.jpg)
 
 Looking at the image above you can clearly see one of the challenge of this stage: vegetation. 
 Our tip is to pay attention cause not just trees could be a problem but also the high grass that could hides something "strong". 
