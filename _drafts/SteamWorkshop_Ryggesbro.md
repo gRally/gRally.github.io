@@ -22,7 +22,7 @@ Hello everyone, this blog post is just to say you "**Merry Christmas!!!**"....
 
 Sorry guys, Santa Claus hacked our account for his business, come back to ours.
 
-In the last months, in addition to the bug fixing and small updates, we developed and added the Steam workshop contents management.
+In the last months, in addition to the bug fixing and small updates, we developed and added the **Steam Workshop** contents management.
 It's an important step for us but, we think, it's important for everyone will add custom contents like stages, cars, codriver voices or car skins.
 
 
@@ -42,14 +42,15 @@ So, our effort was to modify the file system used by the game in order to manage
 ![gModCreator](/assets/images/gModsCreator.jpg) 
 
 The tool is quite simple but we'll add a page in our wiki with all the details.
-In short you'll choose what kind of mod you're publishing, the folder where this mod is running on your pc, the mod details (name, author, version and so on) and the you're ready to publish on WorKshop with the Steam logo button.
+In short you'll choose what kind of mod you're publishing, the folder where this mod is running on your pc, the mod details (name, author, version and so on) and then you're ready to publish on Workshop with the Steam logo button.
+You'll find the tool in the Mods section of the main menu.
 
 We hope that this tool will be helpful and we're open to every feedback you'll give us about it. 
 
 So, we have a **game**, an integrated **workshop**, what are we missing? A **mod** !!! 
 Is there a better occasion to release a new stage than this? No !! 
 
-So here we are, we present you Ryggesbro.
+So here we are, we present you **Ryggesbro**.
 
 ![Ryggesbro01](/assets/images/Ryggesbro01.jpg)
 
