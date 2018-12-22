@@ -1,8 +1,9 @@
 ---
-layout: single
 title:  "Christmas gift"
 header:
   teaser: "assets/images/SteamWorkshop.jpg"
+  overlay_image: "assets/images/SteamWorkshop.jpg"
+  overlay_filter: rgba(0, 0, 0, 0.55)
 categories: 
   - content
 tags:
@@ -10,10 +11,9 @@ tags:
   - Steam Workshop
   - gravel stage
 author: ghiboz
-excerpt: "Hello everyone, this blog post is just to say you "**Merry Christmas!!!**".... 
-.... .... Ehm ehm... **No!! No!! Stop, please stop!!!** 
-Sorry guys, Santa Claus hacked our account for his business, come back to ours"
+excerpt: "Hello everyone, this blog post is just to say you '**Merry Christmas!!!**'.... .... Ehm ehm... **No!! No!! Stop, please stop!!!** Sorry guys, Santa Claus hacked our account for his business, come back to ours"
 classes: wide
+comments: false
 ---
 
 Hello everyone, this blog post is just to say you "**Merry Christmas!!!**".... 
