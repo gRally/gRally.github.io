@@ -39,7 +39,7 @@ Workshop features we like:
 
 So, our effort was to modify the file system used by the game in order to manage mods both in "gRally classical" mode and Workshop mode and we introduced a graphical tool to help modders uploading mods to the Workshop. 
 
-![gModCreator](/assets/images/gModsCreator.jpg) 
+![gModCreator](../assets/images/gModsCreator.jpg) 
 
 The tool is quite simple but we'll add a page in our wiki with all the details.
 In short you'll choose what kind of mod you're publishing, the folder where this mod is running on your pc, the mod details (name, author, version and so on) and then you're ready to publish on Workshop with the Steam logo button.
@@ -52,9 +52,9 @@ Is there a better occasion to release a new stage than this? No !!
 
 So here we are, we present you **Ryggesbro**.
 
-![Ryggesbro01](/assets/images/Ryggesbro01.jpg)
+![Ryggesbro01](../assets/images/Ryggesbro01.jpg)
 
-First of all we want to say a big "**Thank you!!!**" to TheHolyMoose, the developer of a tool to create special stage in a procedural way. 
+First of all we want to say a big "**Thank you!!!**" to **TheHolyMoose**, the developer of a tool to create special stage in a procedural way. 
 You can find every information on his website https://holymooses.com/PRL/index.php. 
 He shared with us some stages to make our testing and one of them is Ryggesbro. 
 He gave us 3d models of the stage and we built over shaders, textures, vegetation and some additional objects and stage modeling. 
@@ -64,7 +64,7 @@ Now, come back to Ryggesbro.
 It is a full gravel stage with a good mix of slow and fast sectors. 
 There are some special sectors we love cause they are good showcases of the rally driving experience : blind curves, full throttle and trust in your codriver :). 
 
-![Ryggesbro02](/assets/images/Ryggesbro02.jpg)
+![Ryggesbro02](../assets/images/Ryggesbro02.jpg)
 
 Looking at the image above you can clearly see one of the challenge of this stage: vegetation. 
 Our tip is to pay attention cause not just trees could be a problem but also the high grass that could hides something "strong". 
