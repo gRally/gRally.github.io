@@ -29,7 +29,7 @@ It's an important step for us but, we think, it's important for everyone will ad
 Probably someone could ask "but modding is already available, why Steam Workshop is better?". 
 
 The reply is quite easy and most of Steam customers already know it: Workshop has many advantages that simply we can't ignore.
-Workshop features we like:
+These are the main Workshop features we like to highlight:
 
 - it helps mod creators to have a repository for their works
 - it has a smart upload system that avoid to upload, for every new mod release version, the full package
@@ -74,4 +74,4 @@ As shown in the previous post we're developing it (actually in that post we refe
 
 We are eager to race on ruts!!! 
 
-Before closing this post let we do our best greetings for the incoming Christmas holidays and check your Steam around 25th , should start a downloading :) !!!
+Before closing this post we'd like to wish you a great Christmas holiday and all the best for the incoming new year... and check your Steam close 25th , should start a downloading :) !!!
