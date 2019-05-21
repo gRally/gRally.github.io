@@ -29,6 +29,19 @@ gallery:
     image_path: /assets/images/g131_03_th.jpg
     alt: "Textured"
     title: "Textured"
+gallery2:
+  - url: /assets/images/obj_01.png
+    image_path: /assets/images/obj_01_th.jpg
+    alt: "Haybale"
+    title: "Haybale"
+  - image_path: /assets/images/obj_02_th.jpg
+    url: /assets/images/obj_02.png
+    alt: "Guardrail"
+    title: "Guardrail"
+  - url: /assets/images/obj_03.png
+    image_path: /assets/images/obj_03_th.jpg
+    alt: "Barrier"
+    title: "Barrier"
 ---
 
 Hi guys, 
@@ -73,6 +86,7 @@ About stages we're creating some new models we'll use both in the procedural sta
 Some of these will be available as default track objects available in our [gStageEditor Unity asset](https://github.com/gRally/gStageEditor) that is avaliable free for everyone want to add stages. 
 We hope you'll enjoy these news. 
 
+{% include gallery id="gallery2" caption="new stage objects" %}
 
 Happy first birthday gRally!!! :champagne: :gift: 
 
