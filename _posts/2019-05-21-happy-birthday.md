@@ -23,8 +23,8 @@ gallery:
     title: "Interiors"
   - image_path: /assets/images/g131_02_th.jpg
     url: /assets/images/g131_02.png
-    alt: "UV map"
-    title: "UV map"
+    alt: "Render"
+    title: "Render"
   - url: /assets/images/g131_03.png
     image_path: /assets/images/g131_03_th.jpg
     alt: "Textured"
@@ -44,7 +44,8 @@ gallery2:
     title: "Barrier"
 ---
 
-Hi guys, 
+Hi guys,
+
 Many weeks passed since our last post and we want to share what we're working on but, first of all, we want to share with you the first birthday of [gRally as a public release](https://store.steampowered.com/app/605760/gRally). 
 As every parents are prouded by their son the same feeling we have about gRally. 
 We were really excited to see the community reaction and we tried to support it as much as we could, releasing, during this year, [18 new builds](https://changelog.grally.net/), some of them just to solve bugs, other ones introducing new features and important optimizations.
@@ -83,10 +84,10 @@ About cars we have more than one project opened:
 {% include gallery caption="new car preview" %}
 
 About stages we're creating some new models we'll use both in the procedural stages and premodelled ones. 
-Some of these will be available as default track objects available in our [gStageEditor Unity asset](https://github.com/gRally/gStageEditor) that is avaliable as free tool for everyone want to add stages. 
 
 {% include gallery id="gallery2" caption="new stage objects" %}
 
+Some of these will be available as default track objects available in our [gStageEditor Unity asset](https://github.com/gRally/gStageEditor) that is avaliable as free tool for everyone want to add stages. 
 
 
 We hope you'll enjoy these news and now let's start the party 
