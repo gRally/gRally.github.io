@@ -47,17 +47,17 @@ gallery2:
 Hi guys, 
 Many weeks passed since our last post and we want to share what we're working on but, first of all, we want to share with you the first birthday of [gRally as a public release](https://store.steampowered.com/app/605760/gRally). 
 As every parents are prouded by their son the same feeling we have about gRally. 
-We were really excited to see the community reaction and we tried to support it as much as we could releasing, during this year, [18 new builds](https://changelog.grally.net/), some of them just to solve bugs, other ones introducing new features and important optimizations.
+We were really excited to see the community reaction and we tried to support it as much as we could, releasing, during this year, [18 new builds](https://changelog.grally.net/), some of them just to solve bugs, other ones introducing new features and important optimizations.
 
 
 This was the past, we like write about it but we love to give you some cues about the future. 
 Probably you've noticed that in the last weeks we released new builds with lower frequency, the reason is we focused our development on a key feature that we consider really important in rally simulator. 
 
 
-We think that the real rally driving experience, what gRally would like to provide, is drive to the limits trusting on your navigator, on your driving instinct and not learning every centimeter doing lap over lap. 
+We think that the real rally driving experience, what gRally would like to provide, is driving to the limits trusting on your navigator, on your driving instinct and not learning every centimeter doing lap over lap. 
 
 
-Due to this we're developing a feature that will give you the opportunity to create special stages directly inside gRally, without external tools, to avoid massive downloads, using only some parameters that will define the type of stage. 
+Due to this we're developing a feature that will give you the opportunity to create special stages directly inside gRally, without external tools, avoiding massive downloads, using only some parameters that will define the type of stage. 
 
 
 Extending this feature to the online rally you'll be able to create different special stages for every event of a rally championship standing out the rally driving talent. 
@@ -76,19 +76,22 @@ As soon as we will have more details on this we'll update you.
 But this it's not all we're working on and we're working on graphic contents too, both for stages and cars. 
 About cars we have more than one project opened:
 
- - Upgrading some textures oh G1 car;
- - Completing with the final touches the GH40;
- - Modelling a new car ;
+ - Upgrading some textures of G1 car;
+ - Completing GH40 car with the final graphical touches;
+ - Modelling a new car;
 
 {% include gallery caption="new car preview" %}
 
 About stages we're creating some new models we'll use both in the procedural stages and premodelled ones. 
-Some of these will be available as default track objects available in our [gStageEditor Unity asset](https://github.com/gRally/gStageEditor) that is avaliable free for everyone want to add stages. 
-We hope you'll enjoy these news. 
+Some of these will be available as default track objects available in our [gStageEditor Unity asset](https://github.com/gRally/gStageEditor) that is avaliable as free tool for everyone want to add stages. 
 
 {% include gallery id="gallery2" caption="new stage objects" %}
 
-Happy first birthday gRally!!! :champagne: :gift: 
+
+
+We hope you'll enjoy these news and now let's start the party 
+
+**Happy first birthday gRally!!!** :champagne: :gift: 
 
 
 
