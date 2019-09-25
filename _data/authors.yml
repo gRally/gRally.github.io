@@ -8,10 +8,10 @@ ghiboz:
   twitter     : "ghiboz"
   google_plus : "ghiboz"
 
-Cornelius Fiddlebone:
-  name        : "Cornelius Fiddlebone"
-  email       : "cornelius@thewhip.com"
-  bio         : "I ordered what?"
-  avatar      : "/assets/images/bio-photo.jpg"
-  twitter     : "rhymeswithsackit"
-  google_plus : "CorneliusFiddlebone"
+marcatore:
+  name        : "marcatore"
+  email       : "https://ghiboz.com"
+  bio         : "When in doubt, accelerate!!!"
+  avatar      : "/assets/images/marcatore.jpg"
+  twitter     : "marcatore"
+  google_plus : "marcatore"
