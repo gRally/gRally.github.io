@@ -1,8 +1,8 @@
 ---
 title: "Putting life to our SS"
 header:
-  teaser: "/assets/images/putting_life.jpg"
-  overlay_image: "/assets/images/putting_life.jpg"
+  teaser: "assets/images/putting_life.jpg"
+  overlay_image: "assets/images/putting_life.jpg"
   # overlay_filter: 0.75
   overlay_filter: rgba(0, 0, 0, 0.55)
   # overlay_color: "#e22634"
