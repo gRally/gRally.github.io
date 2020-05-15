@@ -6,12 +6,9 @@ ghiboz:
   bio         : "You're here for a good time, not a long time."
   avatar      : "/assets/images/ghiboz.jpg"
   twitter     : "ghiboz"
-  google_plus : "ghiboz"
 
 marcatore:
   name        : "marcatore"
-  email       : "https://ghiboz.com"
+  uri       : "https://gRally.net"
   bio         : "When in doubt, accelerate!!!"
   avatar      : "/assets/images/marcatore.jpg"
-  twitter     : "marcatore"
-  google_plus : "marcatore"

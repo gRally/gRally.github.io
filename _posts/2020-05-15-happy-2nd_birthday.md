@@ -10,7 +10,7 @@ tags:
   - procedural stages
   - news
   - birthday
-author: ghiboz
+author: marcatore
 excerpt: "Here we are! For the second birthday of gRally we prepared a nice surprise. Let's take a look..."
 classes: wide
 comments: false
