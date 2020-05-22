@@ -20,15 +20,9 @@ permalink: /roadmap/
 The `Near term` stuff are things that we're working on or we plan to do shortly
 {: .notice--success}
 
-### Controllers configuration
-<div id="container86" class="gRally-progress"></div>
-This is a tricky stuff: we've completely rewrote the input management to make gRally more versatile to
-every controller the user has;
-unfortunately this took us more time than expected: but we're on the right way to fix definitively
-the controller issues. <br>We encourage everyone to report controller bugs, it's the only way for us to "test" the different hardware.
-
 ### Dynamic tyre models
-<div id="container84" class="gRally-progress"></div>
+<div id="container90" class="gRally-progress"></div>
+
 This is a cool thing: with this feature the 3d tyre and texturizing is done automatically: the user will be
 able to choose a different rim, different rim color, different caliper color and the core do everything.
 Finally we'll have a different tyre shape when we choose the tyre for the stage.
@@ -58,12 +52,11 @@ with the aquaplanning and different damp/wet zones.
 We decided to improve the online side using Steam to manage the game servers, so each driver will be
 able to create and manage online rallies and championships.
 
-### Unity 2018
-<div id="container56" class="gRally-progress"></div>
-We want to be aligned with the Unity releases and this step should improve the framerate and the graphics.
+
 
 ### Surface usage
-<div id="container50" class="gRally-progress"></div>
+<div id="container95" class="gRally-progress"></div>
+
 gRally will manage the surface usage in 2 ways, graphics and physics: this will be useful for live rallies
 where the grip and the behaviour of the car into certain stage depends by the starting road position.
 
@@ -101,8 +94,16 @@ Next step is make a rigged driver that is in the engine.
 
 
 ## Released
-This section is to track all the stuff made, to link with the released build
+This section is to track all the stuff made linked with the build released
 {: .notice--info}
+
+### Build v1.1.0.0 of 21 May 2019
+
+- **Controllers configuration** : This is a tricky stuff: we've completely rewrote the input management to make gRally more versatile to
+  every controller the user has;
+  unfortunately this took us more time than expected: but we're on the right way to fix definitively
+  the controller issues. <br>We encourage everyone to report controller bugs, it's the only way for us to "test" the different hardware.
+- **Unity 2018** : We want to be aligned with the Unity releases and this step should improve the framerate and the graphics.
 
 ### Build v1.0.17.13 of 21 Feb 2019
 
