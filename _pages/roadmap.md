@@ -55,7 +55,7 @@ able to create and manage online rallies and championships.
 
 
 ### Surface usage
-<div id="container95" class="gRally-progress"></div>
+<div id="container93" class="gRally-progress"></div>
 
 gRally will manage the surface usage in 2 ways, graphics and physics: this will be useful for live rallies
 where the grip and the behaviour of the car into certain stage depends by the starting road position.
@@ -63,7 +63,7 @@ where the grip and the behaviour of the car into certain stage depends by the st
 ### UI for VR
 <div id="container40" class="gRally-progress"></div>
 At the moment gRally is shipped with a working VR management, but the VR is basic.
-With this new step you can interact with the UI
+With this new step you can interact with the UI.
 
 ### Baitoni-Bondone
 <div id="container36" class="gRally-progress"></div>
