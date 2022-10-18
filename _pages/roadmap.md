@@ -65,9 +65,7 @@ where the grip and the behaviour of the car into certain stage depends by the st
 At the moment gRally is shipped with a working VR management, but the VR is basic.
 With this new step you can interact with the UI.
 
-### Baitoni-Bondone
-<div id="container36" class="gRally-progress"></div>
-The stage where gRally runs its first kilometers. It's entered now the refreshing mode due to the sim and graphic engine developments.
+
 
 ### FMOD
 <div id="container30" class="gRally-progress"></div>
@@ -96,6 +94,10 @@ Next step is make a rigged driver that is in the engine.
 ## Released
 This section is to track all the stuff made linked with the build released
 {: .notice--info}
+
+### Build v1.1.6.27 of 24 dic 2021
+
+- **Baitoni-Bondone** : The stage where gRally runs its first kilometers. It's entered now the refreshing mode due to the sim and graphic engine developments.
 
 ### Build v1.1.0.0 of 21 May 2019
 
